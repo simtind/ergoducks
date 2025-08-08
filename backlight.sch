@@ -1,0 +1,3056 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "Backlight"
+Date "2022-04-27"
+Rev "0.1"
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Connection ~ 975  1125
+NoConn ~ 10575 5975
+Wire Wire Line
+	11025 4775 10575 4775
+Wire Wire Line
+	11025 3625 11025 4775
+Wire Wire Line
+	10575 3625 11025 3625
+Wire Wire Line
+	11025 2475 10575 2475
+Wire Wire Line
+	11025 1325 11025 2475
+Wire Wire Line
+	10575 1325 11025 1325
+Wire Wire Line
+	2925 3625 4475 3625
+Wire Wire Line
+	2925 2475 2925 3625
+Wire Wire Line
+	3375 2475 2925 2475
+Wire Wire Line
+	725  5975 1175 5975
+Wire Wire Line
+	725  4775 725  5975
+Wire Wire Line
+	1175 4775 725  4775
+Wire Wire Line
+	2875 4775 3375 4775
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1B26
+P 2575 4775
+AR Path="/54B2C0DD/638D1B26" Ref="D?"  Part="1" 
+AR Path="/638D1B26" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1B26" Ref="D222"  Part="1" 
+F 0 "D222" H 2919 4821 50  0000 L CNN
+F 1 "WS2812B" H 2919 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 2625 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2675 4400 50  0001 L TNN
+	1    2575 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1B2C
+P 2275 4375
+AR Path="/54B2C0DD/638D1B2C" Ref="C?"  Part="1" 
+AR Path="/638D1B2C" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1B2C" Ref="C223"  Part="1" 
+F 0 "C223" H 2367 4421 50  0000 L CNN
+F 1 "100nF" H 2367 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2275 4375 50  0001 C CNN
+F 3 "~" H 2275 4375 50  0001 C CNN
+	1    2275 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1B32
+P 2275 4475
+AR Path="/54B2C0DD/638D1B32" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B32" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B32" Ref="#PWR0274"  Part="1" 
+F 0 "#PWR0274" H 2275 4225 50  0001 C CNN
+F 1 "GND" H 2280 4302 50  0000 C CNN
+F 2 "" H 2275 4475 50  0001 C CNN
+F 3 "" H 2275 4475 50  0001 C CNN
+	1    2275 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1B38
+P 2275 4275
+AR Path="/54B2C0DD/638D1B38" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B38" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B38" Ref="#PWR0265"  Part="1" 
+F 0 "#PWR0265" H 2275 4125 50  0001 C CNN
+F 1 "+5V" H 2290 4448 50  0000 C CNN
+F 2 "" H 2275 4275 50  0001 C CNN
+F 3 "" H 2275 4275 50  0001 C CNN
+	1    2275 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 4275 2575 4275
+Wire Wire Line
+	2575 4275 2575 4475
+Connection ~ 2275 4275
+$Comp
+L power:GND #PWR?
+U 1 1 638D1B41
+P 2575 5075
+AR Path="/54B2C0DD/638D1B41" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B41" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B41" Ref="#PWR0283"  Part="1" 
+F 0 "#PWR0283" H 2575 4825 50  0001 C CNN
+F 1 "GND" H 2580 4902 50  0000 C CNN
+F 2 "" H 2575 5075 50  0001 C CNN
+F 3 "" H 2575 5075 50  0001 C CNN
+	1    2575 5075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1B47
+P 1475 4775
+AR Path="/54B2C0DD/638D1B47" Ref="D?"  Part="1" 
+AR Path="/638D1B47" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1B47" Ref="D221"  Part="1" 
+F 0 "D221" H 1819 4821 50  0000 L CNN
+F 1 "WS2812B" H 1819 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 1525 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1575 4400 50  0001 L TNN
+	1    1475 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1B4D
+P 1175 4375
+AR Path="/54B2C0DD/638D1B4D" Ref="C?"  Part="1" 
+AR Path="/638D1B4D" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1B4D" Ref="C222"  Part="1" 
+F 0 "C222" H 1267 4421 50  0000 L CNN
+F 1 "100nF" H 1267 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1175 4375 50  0001 C CNN
+F 3 "~" H 1175 4375 50  0001 C CNN
+	1    1175 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1B53
+P 1175 4475
+AR Path="/54B2C0DD/638D1B53" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B53" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B53" Ref="#PWR0273"  Part="1" 
+F 0 "#PWR0273" H 1175 4225 50  0001 C CNN
+F 1 "GND" H 1180 4302 50  0000 C CNN
+F 2 "" H 1175 4475 50  0001 C CNN
+F 3 "" H 1175 4475 50  0001 C CNN
+	1    1175 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1B59
+P 1175 4275
+AR Path="/54B2C0DD/638D1B59" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B59" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B59" Ref="#PWR0264"  Part="1" 
+F 0 "#PWR0264" H 1175 4125 50  0001 C CNN
+F 1 "+5V" H 1190 4448 50  0000 C CNN
+F 2 "" H 1175 4275 50  0001 C CNN
+F 3 "" H 1175 4275 50  0001 C CNN
+	1    1175 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	1175 4275 1475 4275
+Wire Wire Line
+	1475 4275 1475 4475
+Connection ~ 1175 4275
+$Comp
+L power:GND #PWR?
+U 1 1 638D1B62
+P 1475 5075
+AR Path="/54B2C0DD/638D1B62" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B62" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B62" Ref="#PWR0282"  Part="1" 
+F 0 "#PWR0282" H 1475 4825 50  0001 C CNN
+F 1 "GND" H 1480 4902 50  0000 C CNN
+F 2 "" H 1475 5075 50  0001 C CNN
+F 3 "" H 1475 5075 50  0001 C CNN
+	1    1475 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2275 4775 1775 4775
+Wire Wire Line
+	1775 5975 2275 5975
+$Comp
+L power:GND #PWR?
+U 1 1 638D1B6A
+P 1475 6275
+AR Path="/54B2C0DD/638D1B6A" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B6A" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B6A" Ref="#PWR0309"  Part="1" 
+F 0 "#PWR0309" H 1475 6025 50  0001 C CNN
+F 1 "GND" H 1480 6102 50  0000 C CNN
+F 2 "" H 1475 6275 50  0001 C CNN
+F 3 "" H 1475 6275 50  0001 C CNN
+	1    1475 6275
+	1    0    0    -1  
+$EndComp
+Connection ~ 1775 5475
+Wire Wire Line
+	1475 5475 1475 5675
+Wire Wire Line
+	1775 5475 1475 5475
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1B73
+P 1775 5475
+AR Path="/54B2C0DD/638D1B73" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B73" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B73" Ref="#PWR0291"  Part="1" 
+F 0 "#PWR0291" H 1775 5325 50  0001 C CNN
+F 1 "+5V" H 1790 5648 50  0000 C CNN
+F 2 "" H 1775 5475 50  0001 C CNN
+F 3 "" H 1775 5475 50  0001 C CNN
+	1    1775 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1B79
+P 1775 5675
+AR Path="/54B2C0DD/638D1B79" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B79" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B79" Ref="#PWR0300"  Part="1" 
+F 0 "#PWR0300" H 1775 5425 50  0001 C CNN
+F 1 "GND" H 1780 5502 50  0000 C CNN
+F 2 "" H 1775 5675 50  0001 C CNN
+F 3 "" H 1775 5675 50  0001 C CNN
+	1    1775 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1B7F
+P 1775 5575
+AR Path="/54B2C0DD/638D1B7F" Ref="C?"  Part="1" 
+AR Path="/638D1B7F" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1B7F" Ref="C231"  Part="1" 
+F 0 "C231" H 1867 5621 50  0000 L CNN
+F 1 "100nF" H 1867 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 1775 5575 50  0001 C CNN
+F 3 "~" H 1775 5575 50  0001 C CNN
+	1    1775 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1B85
+P 1475 5975
+AR Path="/54B2C0DD/638D1B85" Ref="D?"  Part="1" 
+AR Path="/638D1B85" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1B85" Ref="D230"  Part="1" 
+F 0 "D230" H 1819 6021 50  0000 L CNN
+F 1 "WS2812B" H 1819 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 1525 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 1575 5600 50  0001 L TNN
+	1    1475 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1B8B
+P 4775 5975
+AR Path="/54B2C0DD/638D1B8B" Ref="D?"  Part="1" 
+AR Path="/638D1B8B" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1B8B" Ref="D233"  Part="1" 
+F 0 "D233" H 5119 6021 50  0000 L CNN
+F 1 "WS2812B" H 5119 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 4825 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4875 5600 50  0001 L TNN
+	1    4775 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1B91
+P 5075 5575
+AR Path="/54B2C0DD/638D1B91" Ref="C?"  Part="1" 
+AR Path="/638D1B91" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1B91" Ref="C234"  Part="1" 
+F 0 "C234" H 5167 5621 50  0000 L CNN
+F 1 "100nF" H 5167 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5075 5575 50  0001 C CNN
+F 3 "~" H 5075 5575 50  0001 C CNN
+	1    5075 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1B97
+P 5075 5675
+AR Path="/54B2C0DD/638D1B97" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B97" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B97" Ref="#PWR0303"  Part="1" 
+F 0 "#PWR0303" H 5075 5425 50  0001 C CNN
+F 1 "GND" H 5080 5502 50  0000 C CNN
+F 2 "" H 5075 5675 50  0001 C CNN
+F 3 "" H 5075 5675 50  0001 C CNN
+	1    5075 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1B9D
+P 5075 5475
+AR Path="/54B2C0DD/638D1B9D" Ref="#PWR?"  Part="1" 
+AR Path="/638D1B9D" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1B9D" Ref="#PWR0294"  Part="1" 
+F 0 "#PWR0294" H 5075 5325 50  0001 C CNN
+F 1 "+5V" H 5090 5648 50  0000 C CNN
+F 2 "" H 5075 5475 50  0001 C CNN
+F 3 "" H 5075 5475 50  0001 C CNN
+	1    5075 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 5475 4775 5475
+Wire Wire Line
+	4775 5475 4775 5675
+Connection ~ 5075 5475
+$Comp
+L power:GND #PWR?
+U 1 1 638D1BA6
+P 4775 6275
+AR Path="/54B2C0DD/638D1BA6" Ref="#PWR?"  Part="1" 
+AR Path="/638D1BA6" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1BA6" Ref="#PWR0312"  Part="1" 
+F 0 "#PWR0312" H 4775 6025 50  0001 C CNN
+F 1 "GND" H 4780 6102 50  0000 C CNN
+F 2 "" H 4775 6275 50  0001 C CNN
+F 3 "" H 4775 6275 50  0001 C CNN
+	1    4775 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 5975 4475 5975
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1BAD
+P 5875 5975
+AR Path="/54B2C0DD/638D1BAD" Ref="D?"  Part="1" 
+AR Path="/638D1BAD" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1BAD" Ref="D234"  Part="1" 
+F 0 "D234" H 6219 6021 50  0000 L CNN
+F 1 "WS2812B" H 6219 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 5925 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5975 5600 50  0001 L TNN
+	1    5875 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1BB3
+P 6175 5575
+AR Path="/54B2C0DD/638D1BB3" Ref="C?"  Part="1" 
+AR Path="/638D1BB3" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1BB3" Ref="C235"  Part="1" 
+F 0 "C235" H 6267 5621 50  0000 L CNN
+F 1 "100nF" H 6267 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6175 5575 50  0001 C CNN
+F 3 "~" H 6175 5575 50  0001 C CNN
+	1    6175 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1BB9
+P 6175 5675
+AR Path="/54B2C0DD/638D1BB9" Ref="#PWR?"  Part="1" 
+AR Path="/638D1BB9" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1BB9" Ref="#PWR0304"  Part="1" 
+F 0 "#PWR0304" H 6175 5425 50  0001 C CNN
+F 1 "GND" H 6180 5502 50  0000 C CNN
+F 2 "" H 6175 5675 50  0001 C CNN
+F 3 "" H 6175 5675 50  0001 C CNN
+	1    6175 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1BBF
+P 6175 5475
+AR Path="/54B2C0DD/638D1BBF" Ref="#PWR?"  Part="1" 
+AR Path="/638D1BBF" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1BBF" Ref="#PWR0295"  Part="1" 
+F 0 "#PWR0295" H 6175 5325 50  0001 C CNN
+F 1 "+5V" H 6190 5648 50  0000 C CNN
+F 2 "" H 6175 5475 50  0001 C CNN
+F 3 "" H 6175 5475 50  0001 C CNN
+	1    6175 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 5475 5875 5475
+Wire Wire Line
+	5875 5475 5875 5675
+Connection ~ 6175 5475
+$Comp
+L power:GND #PWR?
+U 1 1 638D1BC8
+P 5875 6275
+AR Path="/54B2C0DD/638D1BC8" Ref="#PWR?"  Part="1" 
+AR Path="/638D1BC8" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1BC8" Ref="#PWR0313"  Part="1" 
+F 0 "#PWR0313" H 5875 6025 50  0001 C CNN
+F 1 "GND" H 5880 6102 50  0000 C CNN
+F 2 "" H 5875 6275 50  0001 C CNN
+F 3 "" H 5875 6275 50  0001 C CNN
+	1    5875 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 5975 5575 5975
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1BCF
+P 6975 5975
+AR Path="/54B2C0DD/638D1BCF" Ref="D?"  Part="1" 
+AR Path="/638D1BCF" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1BCF" Ref="D235"  Part="1" 
+F 0 "D235" H 7319 6021 50  0000 L CNN
+F 1 "WS2812B" H 7319 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 7025 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7075 5600 50  0001 L TNN
+	1    6975 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1BD5
+P 7275 5575
+AR Path="/54B2C0DD/638D1BD5" Ref="C?"  Part="1" 
+AR Path="/638D1BD5" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1BD5" Ref="C236"  Part="1" 
+F 0 "C236" H 7367 5621 50  0000 L CNN
+F 1 "100nF" H 7367 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7275 5575 50  0001 C CNN
+F 3 "~" H 7275 5575 50  0001 C CNN
+	1    7275 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1BDB
+P 7275 5675
+AR Path="/54B2C0DD/638D1BDB" Ref="#PWR?"  Part="1" 
+AR Path="/638D1BDB" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1BDB" Ref="#PWR0305"  Part="1" 
+F 0 "#PWR0305" H 7275 5425 50  0001 C CNN
+F 1 "GND" H 7280 5502 50  0000 C CNN
+F 2 "" H 7275 5675 50  0001 C CNN
+F 3 "" H 7275 5675 50  0001 C CNN
+	1    7275 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1BE1
+P 7275 5475
+AR Path="/54B2C0DD/638D1BE1" Ref="#PWR?"  Part="1" 
+AR Path="/638D1BE1" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1BE1" Ref="#PWR0296"  Part="1" 
+F 0 "#PWR0296" H 7275 5325 50  0001 C CNN
+F 1 "+5V" H 7290 5648 50  0000 C CNN
+F 2 "" H 7275 5475 50  0001 C CNN
+F 3 "" H 7275 5475 50  0001 C CNN
+	1    7275 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 5475 6975 5475
+Wire Wire Line
+	6975 5475 6975 5675
+Connection ~ 7275 5475
+$Comp
+L power:GND #PWR?
+U 1 1 638D1BEA
+P 6975 6275
+AR Path="/54B2C0DD/638D1BEA" Ref="#PWR?"  Part="1" 
+AR Path="/638D1BEA" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1BEA" Ref="#PWR0314"  Part="1" 
+F 0 "#PWR0314" H 6975 6025 50  0001 C CNN
+F 1 "GND" H 6980 6102 50  0000 C CNN
+F 2 "" H 6975 6275 50  0001 C CNN
+F 3 "" H 6975 6275 50  0001 C CNN
+	1    6975 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 5975 6675 5975
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1BF1
+P 8075 5975
+AR Path="/54B2C0DD/638D1BF1" Ref="D?"  Part="1" 
+AR Path="/638D1BF1" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1BF1" Ref="D236"  Part="1" 
+F 0 "D236" H 8419 6021 50  0000 L CNN
+F 1 "WS2812B" H 8419 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 8125 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8175 5600 50  0001 L TNN
+	1    8075 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1BF7
+P 8375 5575
+AR Path="/54B2C0DD/638D1BF7" Ref="C?"  Part="1" 
+AR Path="/638D1BF7" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1BF7" Ref="C237"  Part="1" 
+F 0 "C237" H 8467 5621 50  0000 L CNN
+F 1 "100nF" H 8467 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8375 5575 50  0001 C CNN
+F 3 "~" H 8375 5575 50  0001 C CNN
+	1    8375 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1BFD
+P 8375 5675
+AR Path="/54B2C0DD/638D1BFD" Ref="#PWR?"  Part="1" 
+AR Path="/638D1BFD" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1BFD" Ref="#PWR0306"  Part="1" 
+F 0 "#PWR0306" H 8375 5425 50  0001 C CNN
+F 1 "GND" H 8380 5502 50  0000 C CNN
+F 2 "" H 8375 5675 50  0001 C CNN
+F 3 "" H 8375 5675 50  0001 C CNN
+	1    8375 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1C03
+P 8375 5475
+AR Path="/54B2C0DD/638D1C03" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C03" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C03" Ref="#PWR0297"  Part="1" 
+F 0 "#PWR0297" H 8375 5325 50  0001 C CNN
+F 1 "+5V" H 8390 5648 50  0000 C CNN
+F 2 "" H 8375 5475 50  0001 C CNN
+F 3 "" H 8375 5475 50  0001 C CNN
+	1    8375 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 5475 8075 5475
+Wire Wire Line
+	8075 5475 8075 5675
+Connection ~ 8375 5475
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C0C
+P 8075 6275
+AR Path="/54B2C0DD/638D1C0C" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C0C" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C0C" Ref="#PWR0315"  Part="1" 
+F 0 "#PWR0315" H 8075 6025 50  0001 C CNN
+F 1 "GND" H 8080 6102 50  0000 C CNN
+F 2 "" H 8075 6275 50  0001 C CNN
+F 3 "" H 8075 6275 50  0001 C CNN
+	1    8075 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 5975 7775 5975
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1C13
+P 9175 5975
+AR Path="/54B2C0DD/638D1C13" Ref="D?"  Part="1" 
+AR Path="/638D1C13" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1C13" Ref="D237"  Part="1" 
+F 0 "D237" H 9519 6021 50  0000 L CNN
+F 1 "WS2812B" H 9519 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 9225 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9275 5600 50  0001 L TNN
+	1    9175 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1C19
+P 9475 5575
+AR Path="/54B2C0DD/638D1C19" Ref="C?"  Part="1" 
+AR Path="/638D1C19" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1C19" Ref="C238"  Part="1" 
+F 0 "C238" H 9567 5621 50  0000 L CNN
+F 1 "100nF" H 9567 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9475 5575 50  0001 C CNN
+F 3 "~" H 9475 5575 50  0001 C CNN
+	1    9475 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C1F
+P 9475 5675
+AR Path="/54B2C0DD/638D1C1F" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C1F" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C1F" Ref="#PWR0307"  Part="1" 
+F 0 "#PWR0307" H 9475 5425 50  0001 C CNN
+F 1 "GND" H 9480 5502 50  0000 C CNN
+F 2 "" H 9475 5675 50  0001 C CNN
+F 3 "" H 9475 5675 50  0001 C CNN
+	1    9475 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1C25
+P 9475 5475
+AR Path="/54B2C0DD/638D1C25" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C25" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C25" Ref="#PWR0298"  Part="1" 
+F 0 "#PWR0298" H 9475 5325 50  0001 C CNN
+F 1 "+5V" H 9490 5648 50  0000 C CNN
+F 2 "" H 9475 5475 50  0001 C CNN
+F 3 "" H 9475 5475 50  0001 C CNN
+	1    9475 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 5475 9175 5475
+Wire Wire Line
+	9175 5475 9175 5675
+Connection ~ 9475 5475
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C2E
+P 9175 6275
+AR Path="/54B2C0DD/638D1C2E" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C2E" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C2E" Ref="#PWR0316"  Part="1" 
+F 0 "#PWR0316" H 9175 6025 50  0001 C CNN
+F 1 "GND" H 9180 6102 50  0000 C CNN
+F 2 "" H 9175 6275 50  0001 C CNN
+F 3 "" H 9175 6275 50  0001 C CNN
+	1    9175 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 5975 8875 5975
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1C35
+P 10275 5975
+AR Path="/54B2C0DD/638D1C35" Ref="D?"  Part="1" 
+AR Path="/638D1C35" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1C35" Ref="D238"  Part="1" 
+F 0 "D238" H 10619 6021 50  0000 L CNN
+F 1 "WS2812B" H 10619 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 10325 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10375 5600 50  0001 L TNN
+	1    10275 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1C3B
+P 10575 5575
+AR Path="/54B2C0DD/638D1C3B" Ref="C?"  Part="1" 
+AR Path="/638D1C3B" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1C3B" Ref="C239"  Part="1" 
+F 0 "C239" H 10667 5621 50  0000 L CNN
+F 1 "100nF" H 10667 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10575 5575 50  0001 C CNN
+F 3 "~" H 10575 5575 50  0001 C CNN
+	1    10575 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C41
+P 10575 5675
+AR Path="/54B2C0DD/638D1C41" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C41" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C41" Ref="#PWR0308"  Part="1" 
+F 0 "#PWR0308" H 10575 5425 50  0001 C CNN
+F 1 "GND" H 10580 5502 50  0000 C CNN
+F 2 "" H 10575 5675 50  0001 C CNN
+F 3 "" H 10575 5675 50  0001 C CNN
+	1    10575 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1C47
+P 10575 5475
+AR Path="/54B2C0DD/638D1C47" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C47" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C47" Ref="#PWR0299"  Part="1" 
+F 0 "#PWR0299" H 10575 5325 50  0001 C CNN
+F 1 "+5V" H 10590 5648 50  0000 C CNN
+F 2 "" H 10575 5475 50  0001 C CNN
+F 3 "" H 10575 5475 50  0001 C CNN
+	1    10575 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10575 5475 10275 5475
+Wire Wire Line
+	10275 5475 10275 5675
+Connection ~ 10575 5475
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C50
+P 10275 6275
+AR Path="/54B2C0DD/638D1C50" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C50" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C50" Ref="#PWR0317"  Part="1" 
+F 0 "#PWR0317" H 10275 6025 50  0001 C CNN
+F 1 "GND" H 10280 6102 50  0000 C CNN
+F 2 "" H 10275 6275 50  0001 C CNN
+F 3 "" H 10275 6275 50  0001 C CNN
+	1    10275 6275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 5975 9975 5975
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C57
+P 3675 6275
+AR Path="/54B2C0DD/638D1C57" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C57" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C57" Ref="#PWR0311"  Part="1" 
+F 0 "#PWR0311" H 3675 6025 50  0001 C CNN
+F 1 "GND" H 3680 6102 50  0000 C CNN
+F 2 "" H 3675 6275 50  0001 C CNN
+F 3 "" H 3675 6275 50  0001 C CNN
+	1    3675 6275
+	1    0    0    -1  
+$EndComp
+Connection ~ 3975 5475
+Wire Wire Line
+	3675 5475 3675 5675
+Wire Wire Line
+	3975 5475 3675 5475
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1C60
+P 3975 5475
+AR Path="/54B2C0DD/638D1C60" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C60" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C60" Ref="#PWR0293"  Part="1" 
+F 0 "#PWR0293" H 3975 5325 50  0001 C CNN
+F 1 "+5V" H 3990 5648 50  0000 C CNN
+F 2 "" H 3975 5475 50  0001 C CNN
+F 3 "" H 3975 5475 50  0001 C CNN
+	1    3975 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C66
+P 3975 5675
+AR Path="/54B2C0DD/638D1C66" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C66" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C66" Ref="#PWR0302"  Part="1" 
+F 0 "#PWR0302" H 3975 5425 50  0001 C CNN
+F 1 "GND" H 3980 5502 50  0000 C CNN
+F 2 "" H 3975 5675 50  0001 C CNN
+F 3 "" H 3975 5675 50  0001 C CNN
+	1    3975 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1C6C
+P 3975 5575
+AR Path="/54B2C0DD/638D1C6C" Ref="C?"  Part="1" 
+AR Path="/638D1C6C" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1C6C" Ref="C233"  Part="1" 
+F 0 "C233" H 4067 5621 50  0000 L CNN
+F 1 "100nF" H 4067 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3975 5575 50  0001 C CNN
+F 3 "~" H 3975 5575 50  0001 C CNN
+	1    3975 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1C72
+P 3675 5975
+AR Path="/54B2C0DD/638D1C72" Ref="D?"  Part="1" 
+AR Path="/638D1C72" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1C72" Ref="D232"  Part="1" 
+F 0 "D232" H 4019 6021 50  0000 L CNN
+F 1 "WS2812B" H 4019 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 3725 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3775 5600 50  0001 L TNN
+	1    3675 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1C78
+P 9175 4775
+AR Path="/54B2C0DD/638D1C78" Ref="D?"  Part="1" 
+AR Path="/638D1C78" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1C78" Ref="D228"  Part="1" 
+F 0 "D228" H 9519 4821 50  0000 L CNN
+F 1 "WS2812B" H 9519 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 9225 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9275 4400 50  0001 L TNN
+	1    9175 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1C7E
+P 8875 4375
+AR Path="/54B2C0DD/638D1C7E" Ref="C?"  Part="1" 
+AR Path="/638D1C7E" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1C7E" Ref="C229"  Part="1" 
+F 0 "C229" H 8967 4421 50  0000 L CNN
+F 1 "100nF" H 8967 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8875 4375 50  0001 C CNN
+F 3 "~" H 8875 4375 50  0001 C CNN
+	1    8875 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C84
+P 8875 4475
+AR Path="/54B2C0DD/638D1C84" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C84" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C84" Ref="#PWR0280"  Part="1" 
+F 0 "#PWR0280" H 8875 4225 50  0001 C CNN
+F 1 "GND" H 8880 4302 50  0000 C CNN
+F 2 "" H 8875 4475 50  0001 C CNN
+F 3 "" H 8875 4475 50  0001 C CNN
+	1    8875 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1C8A
+P 8875 4275
+AR Path="/54B2C0DD/638D1C8A" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C8A" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C8A" Ref="#PWR0271"  Part="1" 
+F 0 "#PWR0271" H 8875 4125 50  0001 C CNN
+F 1 "+5V" H 8890 4448 50  0000 C CNN
+F 2 "" H 8875 4275 50  0001 C CNN
+F 3 "" H 8875 4275 50  0001 C CNN
+	1    8875 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8875 4275 9175 4275
+Wire Wire Line
+	9175 4275 9175 4475
+Connection ~ 8875 4275
+$Comp
+L power:GND #PWR?
+U 1 1 638D1C93
+P 9175 5075
+AR Path="/54B2C0DD/638D1C93" Ref="#PWR?"  Part="1" 
+AR Path="/638D1C93" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1C93" Ref="#PWR0289"  Part="1" 
+F 0 "#PWR0289" H 9175 4825 50  0001 C CNN
+F 1 "GND" H 9180 4902 50  0000 C CNN
+F 2 "" H 9175 5075 50  0001 C CNN
+F 3 "" H 9175 5075 50  0001 C CNN
+	1    9175 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9975 4775 9475 4775
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1C9A
+P 8075 4775
+AR Path="/54B2C0DD/638D1C9A" Ref="D?"  Part="1" 
+AR Path="/638D1C9A" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1C9A" Ref="D227"  Part="1" 
+F 0 "D227" H 8419 4821 50  0000 L CNN
+F 1 "WS2812B" H 8419 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 8125 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8175 4400 50  0001 L TNN
+	1    8075 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1CA0
+P 7775 4375
+AR Path="/54B2C0DD/638D1CA0" Ref="C?"  Part="1" 
+AR Path="/638D1CA0" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1CA0" Ref="C228"  Part="1" 
+F 0 "C228" H 7867 4421 50  0000 L CNN
+F 1 "100nF" H 7867 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7775 4375 50  0001 C CNN
+F 3 "~" H 7775 4375 50  0001 C CNN
+	1    7775 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1CA6
+P 7775 4475
+AR Path="/54B2C0DD/638D1CA6" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CA6" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CA6" Ref="#PWR0279"  Part="1" 
+F 0 "#PWR0279" H 7775 4225 50  0001 C CNN
+F 1 "GND" H 7780 4302 50  0000 C CNN
+F 2 "" H 7775 4475 50  0001 C CNN
+F 3 "" H 7775 4475 50  0001 C CNN
+	1    7775 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1CAC
+P 7775 4275
+AR Path="/54B2C0DD/638D1CAC" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CAC" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CAC" Ref="#PWR0270"  Part="1" 
+F 0 "#PWR0270" H 7775 4125 50  0001 C CNN
+F 1 "+5V" H 7790 4448 50  0000 C CNN
+F 2 "" H 7775 4275 50  0001 C CNN
+F 3 "" H 7775 4275 50  0001 C CNN
+	1    7775 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 4275 8075 4275
+Wire Wire Line
+	8075 4275 8075 4475
+Connection ~ 7775 4275
+$Comp
+L power:GND #PWR?
+U 1 1 638D1CB5
+P 8075 5075
+AR Path="/54B2C0DD/638D1CB5" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CB5" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CB5" Ref="#PWR0288"  Part="1" 
+F 0 "#PWR0288" H 8075 4825 50  0001 C CNN
+F 1 "GND" H 8080 4902 50  0000 C CNN
+F 2 "" H 8075 5075 50  0001 C CNN
+F 3 "" H 8075 5075 50  0001 C CNN
+	1    8075 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8875 4775 8375 4775
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1CBC
+P 6975 4775
+AR Path="/54B2C0DD/638D1CBC" Ref="D?"  Part="1" 
+AR Path="/638D1CBC" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1CBC" Ref="D226"  Part="1" 
+F 0 "D226" H 7319 4821 50  0000 L CNN
+F 1 "WS2812B" H 7319 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 7025 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7075 4400 50  0001 L TNN
+	1    6975 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1CC2
+P 6675 4375
+AR Path="/54B2C0DD/638D1CC2" Ref="C?"  Part="1" 
+AR Path="/638D1CC2" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1CC2" Ref="C227"  Part="1" 
+F 0 "C227" H 6767 4421 50  0000 L CNN
+F 1 "100nF" H 6767 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6675 4375 50  0001 C CNN
+F 3 "~" H 6675 4375 50  0001 C CNN
+	1    6675 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1CC8
+P 6675 4475
+AR Path="/54B2C0DD/638D1CC8" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CC8" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CC8" Ref="#PWR0278"  Part="1" 
+F 0 "#PWR0278" H 6675 4225 50  0001 C CNN
+F 1 "GND" H 6680 4302 50  0000 C CNN
+F 2 "" H 6675 4475 50  0001 C CNN
+F 3 "" H 6675 4475 50  0001 C CNN
+	1    6675 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1CCE
+P 6675 4275
+AR Path="/54B2C0DD/638D1CCE" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CCE" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CCE" Ref="#PWR0269"  Part="1" 
+F 0 "#PWR0269" H 6675 4125 50  0001 C CNN
+F 1 "+5V" H 6690 4448 50  0000 C CNN
+F 2 "" H 6675 4275 50  0001 C CNN
+F 3 "" H 6675 4275 50  0001 C CNN
+	1    6675 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 4275 6975 4275
+Wire Wire Line
+	6975 4275 6975 4475
+Connection ~ 6675 4275
+$Comp
+L power:GND #PWR?
+U 1 1 638D1CD7
+P 6975 5075
+AR Path="/54B2C0DD/638D1CD7" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CD7" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CD7" Ref="#PWR0287"  Part="1" 
+F 0 "#PWR0287" H 6975 4825 50  0001 C CNN
+F 1 "GND" H 6980 4902 50  0000 C CNN
+F 2 "" H 6975 5075 50  0001 C CNN
+F 3 "" H 6975 5075 50  0001 C CNN
+	1    6975 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 4775 7275 4775
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1CDE
+P 5875 4775
+AR Path="/54B2C0DD/638D1CDE" Ref="D?"  Part="1" 
+AR Path="/638D1CDE" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1CDE" Ref="D225"  Part="1" 
+F 0 "D225" H 6219 4821 50  0000 L CNN
+F 1 "WS2812B" H 6219 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 5925 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5975 4400 50  0001 L TNN
+	1    5875 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1CE4
+P 5575 4375
+AR Path="/54B2C0DD/638D1CE4" Ref="C?"  Part="1" 
+AR Path="/638D1CE4" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1CE4" Ref="C226"  Part="1" 
+F 0 "C226" H 5667 4421 50  0000 L CNN
+F 1 "100nF" H 5667 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5575 4375 50  0001 C CNN
+F 3 "~" H 5575 4375 50  0001 C CNN
+	1    5575 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1CEA
+P 5575 4475
+AR Path="/54B2C0DD/638D1CEA" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CEA" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CEA" Ref="#PWR0277"  Part="1" 
+F 0 "#PWR0277" H 5575 4225 50  0001 C CNN
+F 1 "GND" H 5580 4302 50  0000 C CNN
+F 2 "" H 5575 4475 50  0001 C CNN
+F 3 "" H 5575 4475 50  0001 C CNN
+	1    5575 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1CF0
+P 5575 4275
+AR Path="/54B2C0DD/638D1CF0" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CF0" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CF0" Ref="#PWR0268"  Part="1" 
+F 0 "#PWR0268" H 5575 4125 50  0001 C CNN
+F 1 "+5V" H 5590 4448 50  0000 C CNN
+F 2 "" H 5575 4275 50  0001 C CNN
+F 3 "" H 5575 4275 50  0001 C CNN
+	1    5575 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 4275 5875 4275
+Wire Wire Line
+	5875 4275 5875 4475
+Connection ~ 5575 4275
+$Comp
+L power:GND #PWR?
+U 1 1 638D1CF9
+P 5875 5075
+AR Path="/54B2C0DD/638D1CF9" Ref="#PWR?"  Part="1" 
+AR Path="/638D1CF9" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1CF9" Ref="#PWR0286"  Part="1" 
+F 0 "#PWR0286" H 5875 4825 50  0001 C CNN
+F 1 "GND" H 5880 4902 50  0000 C CNN
+F 2 "" H 5875 5075 50  0001 C CNN
+F 3 "" H 5875 5075 50  0001 C CNN
+	1    5875 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 4775 6175 4775
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1D00
+P 4775 4775
+AR Path="/54B2C0DD/638D1D00" Ref="D?"  Part="1" 
+AR Path="/638D1D00" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1D00" Ref="D224"  Part="1" 
+F 0 "D224" H 5119 4821 50  0000 L CNN
+F 1 "WS2812B" H 5119 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 4825 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4875 4400 50  0001 L TNN
+	1    4775 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1D06
+P 4475 4375
+AR Path="/54B2C0DD/638D1D06" Ref="C?"  Part="1" 
+AR Path="/638D1D06" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1D06" Ref="C225"  Part="1" 
+F 0 "C225" H 4567 4421 50  0000 L CNN
+F 1 "100nF" H 4567 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4475 4375 50  0001 C CNN
+F 3 "~" H 4475 4375 50  0001 C CNN
+	1    4475 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D0C
+P 4475 4475
+AR Path="/54B2C0DD/638D1D0C" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D0C" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D0C" Ref="#PWR0276"  Part="1" 
+F 0 "#PWR0276" H 4475 4225 50  0001 C CNN
+F 1 "GND" H 4480 4302 50  0000 C CNN
+F 2 "" H 4475 4475 50  0001 C CNN
+F 3 "" H 4475 4475 50  0001 C CNN
+	1    4475 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1D12
+P 4475 4275
+AR Path="/54B2C0DD/638D1D12" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D12" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D12" Ref="#PWR0267"  Part="1" 
+F 0 "#PWR0267" H 4475 4125 50  0001 C CNN
+F 1 "+5V" H 4490 4448 50  0000 C CNN
+F 2 "" H 4475 4275 50  0001 C CNN
+F 3 "" H 4475 4275 50  0001 C CNN
+	1    4475 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 4275 4775 4275
+Wire Wire Line
+	4775 4275 4775 4475
+Connection ~ 4475 4275
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D1B
+P 4775 5075
+AR Path="/54B2C0DD/638D1D1B" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D1B" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D1B" Ref="#PWR0285"  Part="1" 
+F 0 "#PWR0285" H 4775 4825 50  0001 C CNN
+F 1 "GND" H 4780 4902 50  0000 C CNN
+F 2 "" H 4775 5075 50  0001 C CNN
+F 3 "" H 4775 5075 50  0001 C CNN
+	1    4775 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 4775 5075 4775
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1D22
+P 3675 4775
+AR Path="/54B2C0DD/638D1D22" Ref="D?"  Part="1" 
+AR Path="/638D1D22" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1D22" Ref="D223"  Part="1" 
+F 0 "D223" H 4019 4821 50  0000 L CNN
+F 1 "WS2812B" H 4019 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 3725 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3775 4400 50  0001 L TNN
+	1    3675 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1D28
+P 3375 4375
+AR Path="/54B2C0DD/638D1D28" Ref="C?"  Part="1" 
+AR Path="/638D1D28" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1D28" Ref="C224"  Part="1" 
+F 0 "C224" H 3467 4421 50  0000 L CNN
+F 1 "100nF" H 3467 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3375 4375 50  0001 C CNN
+F 3 "~" H 3375 4375 50  0001 C CNN
+	1    3375 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D2E
+P 3375 4475
+AR Path="/54B2C0DD/638D1D2E" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D2E" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D2E" Ref="#PWR0275"  Part="1" 
+F 0 "#PWR0275" H 3375 4225 50  0001 C CNN
+F 1 "GND" H 3380 4302 50  0000 C CNN
+F 2 "" H 3375 4475 50  0001 C CNN
+F 3 "" H 3375 4475 50  0001 C CNN
+	1    3375 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1D34
+P 3375 4275
+AR Path="/54B2C0DD/638D1D34" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D34" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D34" Ref="#PWR0266"  Part="1" 
+F 0 "#PWR0266" H 3375 4125 50  0001 C CNN
+F 1 "+5V" H 3390 4448 50  0000 C CNN
+F 2 "" H 3375 4275 50  0001 C CNN
+F 3 "" H 3375 4275 50  0001 C CNN
+	1    3375 4275
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4275 3675 4275
+Wire Wire Line
+	3675 4275 3675 4475
+Connection ~ 3375 4275
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D3D
+P 3675 5075
+AR Path="/54B2C0DD/638D1D3D" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D3D" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D3D" Ref="#PWR0284"  Part="1" 
+F 0 "#PWR0284" H 3675 4825 50  0001 C CNN
+F 1 "GND" H 3680 4902 50  0000 C CNN
+F 2 "" H 3675 5075 50  0001 C CNN
+F 3 "" H 3675 5075 50  0001 C CNN
+	1    3675 5075
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 4775 3975 4775
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D44
+P 10275 5075
+AR Path="/54B2C0DD/638D1D44" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D44" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D44" Ref="#PWR0290"  Part="1" 
+F 0 "#PWR0290" H 10275 4825 50  0001 C CNN
+F 1 "GND" H 10280 4902 50  0000 C CNN
+F 2 "" H 10275 5075 50  0001 C CNN
+F 3 "" H 10275 5075 50  0001 C CNN
+	1    10275 5075
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9975 4275
+Wire Wire Line
+	10275 4275 10275 4475
+Wire Wire Line
+	9975 4275 10275 4275
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1D4D
+P 9975 4275
+AR Path="/54B2C0DD/638D1D4D" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D4D" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D4D" Ref="#PWR0272"  Part="1" 
+F 0 "#PWR0272" H 9975 4125 50  0001 C CNN
+F 1 "+5V" H 9990 4448 50  0000 C CNN
+F 2 "" H 9975 4275 50  0001 C CNN
+F 3 "" H 9975 4275 50  0001 C CNN
+	1    9975 4275
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D53
+P 9975 4475
+AR Path="/54B2C0DD/638D1D53" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D53" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D53" Ref="#PWR0281"  Part="1" 
+F 0 "#PWR0281" H 9975 4225 50  0001 C CNN
+F 1 "GND" H 9980 4302 50  0000 C CNN
+F 2 "" H 9975 4475 50  0001 C CNN
+F 3 "" H 9975 4475 50  0001 C CNN
+	1    9975 4475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1D59
+P 9975 4375
+AR Path="/54B2C0DD/638D1D59" Ref="C?"  Part="1" 
+AR Path="/638D1D59" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1D59" Ref="C230"  Part="1" 
+F 0 "C230" H 10067 4421 50  0000 L CNN
+F 1 "100nF" H 10067 4330 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9975 4375 50  0001 C CNN
+F 3 "~" H 9975 4375 50  0001 C CNN
+	1    9975 4375
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1D5F
+P 10275 4775
+AR Path="/54B2C0DD/638D1D5F" Ref="D?"  Part="1" 
+AR Path="/638D1D5F" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1D5F" Ref="D229"  Part="1" 
+F 0 "D229" H 10619 4821 50  0000 L CNN
+F 1 "WS2812B" H 10619 4730 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 10325 4475 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10375 4400 50  0001 L TNN
+	1    10275 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1D65
+P 4775 3625
+AR Path="/54B2C0DD/638D1D65" Ref="D?"  Part="1" 
+AR Path="/638D1D65" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1D65" Ref="D215"  Part="1" 
+F 0 "D215" H 5119 3671 50  0000 L CNN
+F 1 "WS2812B" H 5119 3580 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 4825 3325 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4875 3250 50  0001 L TNN
+	1    4775 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1D6B
+P 5075 3225
+AR Path="/54B2C0DD/638D1D6B" Ref="C?"  Part="1" 
+AR Path="/638D1D6B" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1D6B" Ref="C216"  Part="1" 
+F 0 "C216" H 5167 3271 50  0000 L CNN
+F 1 "100nF" H 5167 3180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5075 3225 50  0001 C CNN
+F 3 "~" H 5075 3225 50  0001 C CNN
+	1    5075 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D71
+P 5075 3325
+AR Path="/54B2C0DD/638D1D71" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D71" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D71" Ref="#PWR0252"  Part="1" 
+F 0 "#PWR0252" H 5075 3075 50  0001 C CNN
+F 1 "GND" H 5080 3152 50  0000 C CNN
+F 2 "" H 5075 3325 50  0001 C CNN
+F 3 "" H 5075 3325 50  0001 C CNN
+	1    5075 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1D77
+P 5075 3125
+AR Path="/54B2C0DD/638D1D77" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D77" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D77" Ref="#PWR0246"  Part="1" 
+F 0 "#PWR0246" H 5075 2975 50  0001 C CNN
+F 1 "+5V" H 5090 3298 50  0000 C CNN
+F 2 "" H 5075 3125 50  0001 C CNN
+F 3 "" H 5075 3125 50  0001 C CNN
+	1    5075 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 3125 4775 3125
+Wire Wire Line
+	4775 3125 4775 3325
+Connection ~ 5075 3125
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D80
+P 4775 3925
+AR Path="/54B2C0DD/638D1D80" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D80" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D80" Ref="#PWR0258"  Part="1" 
+F 0 "#PWR0258" H 4775 3675 50  0001 C CNN
+F 1 "GND" H 4780 3752 50  0000 C CNN
+F 2 "" H 4775 3925 50  0001 C CNN
+F 3 "" H 4775 3925 50  0001 C CNN
+	1    4775 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2875 5975 3375 5975
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1D87
+P 5875 3625
+AR Path="/54B2C0DD/638D1D87" Ref="D?"  Part="1" 
+AR Path="/638D1D87" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1D87" Ref="D216"  Part="1" 
+F 0 "D216" H 6219 3671 50  0000 L CNN
+F 1 "WS2812B" H 6219 3580 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 5925 3325 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5975 3250 50  0001 L TNN
+	1    5875 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1D8D
+P 6175 3225
+AR Path="/54B2C0DD/638D1D8D" Ref="C?"  Part="1" 
+AR Path="/638D1D8D" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1D8D" Ref="C217"  Part="1" 
+F 0 "C217" H 6267 3271 50  0000 L CNN
+F 1 "100nF" H 6267 3180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6175 3225 50  0001 C CNN
+F 3 "~" H 6175 3225 50  0001 C CNN
+	1    6175 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1D93
+P 6175 3325
+AR Path="/54B2C0DD/638D1D93" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D93" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D93" Ref="#PWR0253"  Part="1" 
+F 0 "#PWR0253" H 6175 3075 50  0001 C CNN
+F 1 "GND" H 6180 3152 50  0000 C CNN
+F 2 "" H 6175 3325 50  0001 C CNN
+F 3 "" H 6175 3325 50  0001 C CNN
+	1    6175 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1D99
+P 6175 3125
+AR Path="/54B2C0DD/638D1D99" Ref="#PWR?"  Part="1" 
+AR Path="/638D1D99" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1D99" Ref="#PWR0247"  Part="1" 
+F 0 "#PWR0247" H 6175 2975 50  0001 C CNN
+F 1 "+5V" H 6190 3298 50  0000 C CNN
+F 2 "" H 6175 3125 50  0001 C CNN
+F 3 "" H 6175 3125 50  0001 C CNN
+	1    6175 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 3125 5875 3125
+Wire Wire Line
+	5875 3125 5875 3325
+Connection ~ 6175 3125
+$Comp
+L power:GND #PWR?
+U 1 1 638D1DA2
+P 5875 3925
+AR Path="/54B2C0DD/638D1DA2" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DA2" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DA2" Ref="#PWR0259"  Part="1" 
+F 0 "#PWR0259" H 5875 3675 50  0001 C CNN
+F 1 "GND" H 5880 3752 50  0000 C CNN
+F 2 "" H 5875 3925 50  0001 C CNN
+F 3 "" H 5875 3925 50  0001 C CNN
+	1    5875 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 3625 5575 3625
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1DA9
+P 6975 3625
+AR Path="/54B2C0DD/638D1DA9" Ref="D?"  Part="1" 
+AR Path="/638D1DA9" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1DA9" Ref="D217"  Part="1" 
+F 0 "D217" H 7319 3671 50  0000 L CNN
+F 1 "WS2812B" H 7319 3580 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 7025 3325 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7075 3250 50  0001 L TNN
+	1    6975 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1DAF
+P 7275 3225
+AR Path="/54B2C0DD/638D1DAF" Ref="C?"  Part="1" 
+AR Path="/638D1DAF" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1DAF" Ref="C218"  Part="1" 
+F 0 "C218" H 7367 3271 50  0000 L CNN
+F 1 "100nF" H 7367 3180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7275 3225 50  0001 C CNN
+F 3 "~" H 7275 3225 50  0001 C CNN
+	1    7275 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1DB5
+P 7275 3325
+AR Path="/54B2C0DD/638D1DB5" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DB5" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DB5" Ref="#PWR0254"  Part="1" 
+F 0 "#PWR0254" H 7275 3075 50  0001 C CNN
+F 1 "GND" H 7280 3152 50  0000 C CNN
+F 2 "" H 7275 3325 50  0001 C CNN
+F 3 "" H 7275 3325 50  0001 C CNN
+	1    7275 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1DBB
+P 7275 3125
+AR Path="/54B2C0DD/638D1DBB" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DBB" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DBB" Ref="#PWR0248"  Part="1" 
+F 0 "#PWR0248" H 7275 2975 50  0001 C CNN
+F 1 "+5V" H 7290 3298 50  0000 C CNN
+F 2 "" H 7275 3125 50  0001 C CNN
+F 3 "" H 7275 3125 50  0001 C CNN
+	1    7275 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 3125 6975 3125
+Wire Wire Line
+	6975 3125 6975 3325
+Connection ~ 7275 3125
+$Comp
+L power:GND #PWR?
+U 1 1 638D1DC4
+P 6975 3925
+AR Path="/54B2C0DD/638D1DC4" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DC4" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DC4" Ref="#PWR0260"  Part="1" 
+F 0 "#PWR0260" H 6975 3675 50  0001 C CNN
+F 1 "GND" H 6980 3752 50  0000 C CNN
+F 2 "" H 6975 3925 50  0001 C CNN
+F 3 "" H 6975 3925 50  0001 C CNN
+	1    6975 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 3625 6675 3625
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1DCB
+P 8075 3625
+AR Path="/54B2C0DD/638D1DCB" Ref="D?"  Part="1" 
+AR Path="/638D1DCB" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1DCB" Ref="D218"  Part="1" 
+F 0 "D218" H 8419 3671 50  0000 L CNN
+F 1 "WS2812B" H 8419 3580 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 8125 3325 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8175 3250 50  0001 L TNN
+	1    8075 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1DD1
+P 8375 3225
+AR Path="/54B2C0DD/638D1DD1" Ref="C?"  Part="1" 
+AR Path="/638D1DD1" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1DD1" Ref="C219"  Part="1" 
+F 0 "C219" H 8467 3271 50  0000 L CNN
+F 1 "100nF" H 8467 3180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8375 3225 50  0001 C CNN
+F 3 "~" H 8375 3225 50  0001 C CNN
+	1    8375 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1DD7
+P 8375 3325
+AR Path="/54B2C0DD/638D1DD7" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DD7" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DD7" Ref="#PWR0255"  Part="1" 
+F 0 "#PWR0255" H 8375 3075 50  0001 C CNN
+F 1 "GND" H 8380 3152 50  0000 C CNN
+F 2 "" H 8375 3325 50  0001 C CNN
+F 3 "" H 8375 3325 50  0001 C CNN
+	1    8375 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1DDD
+P 8375 3125
+AR Path="/54B2C0DD/638D1DDD" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DDD" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DDD" Ref="#PWR0249"  Part="1" 
+F 0 "#PWR0249" H 8375 2975 50  0001 C CNN
+F 1 "+5V" H 8390 3298 50  0000 C CNN
+F 2 "" H 8375 3125 50  0001 C CNN
+F 3 "" H 8375 3125 50  0001 C CNN
+	1    8375 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 3125 8075 3125
+Wire Wire Line
+	8075 3125 8075 3325
+Connection ~ 8375 3125
+$Comp
+L power:GND #PWR?
+U 1 1 638D1DE6
+P 8075 3925
+AR Path="/54B2C0DD/638D1DE6" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DE6" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DE6" Ref="#PWR0261"  Part="1" 
+F 0 "#PWR0261" H 8075 3675 50  0001 C CNN
+F 1 "GND" H 8080 3752 50  0000 C CNN
+F 2 "" H 8075 3925 50  0001 C CNN
+F 3 "" H 8075 3925 50  0001 C CNN
+	1    8075 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 3625 7775 3625
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1DED
+P 9175 3625
+AR Path="/54B2C0DD/638D1DED" Ref="D?"  Part="1" 
+AR Path="/638D1DED" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1DED" Ref="D219"  Part="1" 
+F 0 "D219" H 9519 3671 50  0000 L CNN
+F 1 "WS2812B" H 9519 3580 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 9225 3325 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9275 3250 50  0001 L TNN
+	1    9175 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1DF3
+P 9475 3225
+AR Path="/54B2C0DD/638D1DF3" Ref="C?"  Part="1" 
+AR Path="/638D1DF3" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1DF3" Ref="C220"  Part="1" 
+F 0 "C220" H 9567 3271 50  0000 L CNN
+F 1 "100nF" H 9567 3180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9475 3225 50  0001 C CNN
+F 3 "~" H 9475 3225 50  0001 C CNN
+	1    9475 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1DF9
+P 9475 3325
+AR Path="/54B2C0DD/638D1DF9" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DF9" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DF9" Ref="#PWR0256"  Part="1" 
+F 0 "#PWR0256" H 9475 3075 50  0001 C CNN
+F 1 "GND" H 9480 3152 50  0000 C CNN
+F 2 "" H 9475 3325 50  0001 C CNN
+F 3 "" H 9475 3325 50  0001 C CNN
+	1    9475 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1DFF
+P 9475 3125
+AR Path="/54B2C0DD/638D1DFF" Ref="#PWR?"  Part="1" 
+AR Path="/638D1DFF" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1DFF" Ref="#PWR0250"  Part="1" 
+F 0 "#PWR0250" H 9475 2975 50  0001 C CNN
+F 1 "+5V" H 9490 3298 50  0000 C CNN
+F 2 "" H 9475 3125 50  0001 C CNN
+F 3 "" H 9475 3125 50  0001 C CNN
+	1    9475 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 3125 9175 3125
+Wire Wire Line
+	9175 3125 9175 3325
+Connection ~ 9475 3125
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E08
+P 9175 3925
+AR Path="/54B2C0DD/638D1E08" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E08" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E08" Ref="#PWR0262"  Part="1" 
+F 0 "#PWR0262" H 9175 3675 50  0001 C CNN
+F 1 "GND" H 9180 3752 50  0000 C CNN
+F 2 "" H 9175 3925 50  0001 C CNN
+F 3 "" H 9175 3925 50  0001 C CNN
+	1    9175 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 3625 8875 3625
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1E0F
+P 10275 3625
+AR Path="/54B2C0DD/638D1E0F" Ref="D?"  Part="1" 
+AR Path="/638D1E0F" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1E0F" Ref="D220"  Part="1" 
+F 0 "D220" H 10619 3671 50  0000 L CNN
+F 1 "WS2812B" H 10619 3580 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 10325 3325 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10375 3250 50  0001 L TNN
+	1    10275 3625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1E15
+P 10575 3225
+AR Path="/54B2C0DD/638D1E15" Ref="C?"  Part="1" 
+AR Path="/638D1E15" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1E15" Ref="C221"  Part="1" 
+F 0 "C221" H 10667 3271 50  0000 L CNN
+F 1 "100nF" H 10667 3180 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10575 3225 50  0001 C CNN
+F 3 "~" H 10575 3225 50  0001 C CNN
+	1    10575 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E1B
+P 10575 3325
+AR Path="/54B2C0DD/638D1E1B" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E1B" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E1B" Ref="#PWR0257"  Part="1" 
+F 0 "#PWR0257" H 10575 3075 50  0001 C CNN
+F 1 "GND" H 10580 3152 50  0000 C CNN
+F 2 "" H 10575 3325 50  0001 C CNN
+F 3 "" H 10575 3325 50  0001 C CNN
+	1    10575 3325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1E21
+P 10575 3125
+AR Path="/54B2C0DD/638D1E21" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E21" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E21" Ref="#PWR0251"  Part="1" 
+F 0 "#PWR0251" H 10575 2975 50  0001 C CNN
+F 1 "+5V" H 10590 3298 50  0000 C CNN
+F 2 "" H 10575 3125 50  0001 C CNN
+F 3 "" H 10575 3125 50  0001 C CNN
+	1    10575 3125
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10575 3125 10275 3125
+Wire Wire Line
+	10275 3125 10275 3325
+Connection ~ 10575 3125
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E2A
+P 10275 3925
+AR Path="/54B2C0DD/638D1E2A" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E2A" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E2A" Ref="#PWR0263"  Part="1" 
+F 0 "#PWR0263" H 10275 3675 50  0001 C CNN
+F 1 "GND" H 10280 3752 50  0000 C CNN
+F 2 "" H 10275 3925 50  0001 C CNN
+F 3 "" H 10275 3925 50  0001 C CNN
+	1    10275 3925
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 3625 9975 3625
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E31
+P 2575 6275
+AR Path="/54B2C0DD/638D1E31" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E31" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E31" Ref="#PWR0310"  Part="1" 
+F 0 "#PWR0310" H 2575 6025 50  0001 C CNN
+F 1 "GND" H 2580 6102 50  0000 C CNN
+F 2 "" H 2575 6275 50  0001 C CNN
+F 3 "" H 2575 6275 50  0001 C CNN
+	1    2575 6275
+	1    0    0    -1  
+$EndComp
+Connection ~ 2875 5475
+Wire Wire Line
+	2575 5475 2575 5675
+Wire Wire Line
+	2875 5475 2575 5475
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1E3A
+P 2875 5475
+AR Path="/54B2C0DD/638D1E3A" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E3A" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E3A" Ref="#PWR0292"  Part="1" 
+F 0 "#PWR0292" H 2875 5325 50  0001 C CNN
+F 1 "+5V" H 2890 5648 50  0000 C CNN
+F 2 "" H 2875 5475 50  0001 C CNN
+F 3 "" H 2875 5475 50  0001 C CNN
+	1    2875 5475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E40
+P 2875 5675
+AR Path="/54B2C0DD/638D1E40" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E40" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E40" Ref="#PWR0301"  Part="1" 
+F 0 "#PWR0301" H 2875 5425 50  0001 C CNN
+F 1 "GND" H 2880 5502 50  0000 C CNN
+F 2 "" H 2875 5675 50  0001 C CNN
+F 3 "" H 2875 5675 50  0001 C CNN
+	1    2875 5675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1E46
+P 2875 5575
+AR Path="/54B2C0DD/638D1E46" Ref="C?"  Part="1" 
+AR Path="/638D1E46" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1E46" Ref="C232"  Part="1" 
+F 0 "C232" H 2967 5621 50  0000 L CNN
+F 1 "100nF" H 2967 5530 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 2875 5575 50  0001 C CNN
+F 3 "~" H 2875 5575 50  0001 C CNN
+	1    2875 5575
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1E4C
+P 2575 5975
+AR Path="/54B2C0DD/638D1E4C" Ref="D?"  Part="1" 
+AR Path="/638D1E4C" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1E4C" Ref="D231"  Part="1" 
+F 0 "D231" H 2919 6021 50  0000 L CNN
+F 1 "WS2812B" H 2919 5930 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 2625 5675 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 2675 5600 50  0001 L TNN
+	1    2575 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1E52
+P 9175 2475
+AR Path="/54B2C0DD/638D1E52" Ref="D?"  Part="1" 
+AR Path="/638D1E52" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1E52" Ref="D213"  Part="1" 
+F 0 "D213" H 9519 2521 50  0000 L CNN
+F 1 "WS2812B" H 9519 2430 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 9225 2175 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9275 2100 50  0001 L TNN
+	1    9175 2475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1E58
+P 8875 2075
+AR Path="/54B2C0DD/638D1E58" Ref="C?"  Part="1" 
+AR Path="/638D1E58" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1E58" Ref="C214"  Part="1" 
+F 0 "C214" H 8967 2121 50  0000 L CNN
+F 1 "100nF" H 8967 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8875 2075 50  0001 C CNN
+F 3 "~" H 8875 2075 50  0001 C CNN
+	1    8875 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E5E
+P 8875 2175
+AR Path="/54B2C0DD/638D1E5E" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E5E" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E5E" Ref="#PWR0237"  Part="1" 
+F 0 "#PWR0237" H 8875 1925 50  0001 C CNN
+F 1 "GND" H 8880 2002 50  0000 C CNN
+F 2 "" H 8875 2175 50  0001 C CNN
+F 3 "" H 8875 2175 50  0001 C CNN
+	1    8875 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1E64
+P 8875 1975
+AR Path="/54B2C0DD/638D1E64" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E64" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E64" Ref="#PWR0230"  Part="1" 
+F 0 "#PWR0230" H 8875 1825 50  0001 C CNN
+F 1 "+5V" H 8890 2148 50  0000 C CNN
+F 2 "" H 8875 1975 50  0001 C CNN
+F 3 "" H 8875 1975 50  0001 C CNN
+	1    8875 1975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8875 1975 9175 1975
+Wire Wire Line
+	9175 1975 9175 2175
+Connection ~ 8875 1975
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E6D
+P 9175 2775
+AR Path="/54B2C0DD/638D1E6D" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E6D" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E6D" Ref="#PWR0244"  Part="1" 
+F 0 "#PWR0244" H 9175 2525 50  0001 C CNN
+F 1 "GND" H 9180 2602 50  0000 C CNN
+F 2 "" H 9175 2775 50  0001 C CNN
+F 3 "" H 9175 2775 50  0001 C CNN
+	1    9175 2775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9975 2475 9475 2475
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1E74
+P 8075 2475
+AR Path="/54B2C0DD/638D1E74" Ref="D?"  Part="1" 
+AR Path="/638D1E74" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1E74" Ref="D212"  Part="1" 
+F 0 "D212" H 8419 2521 50  0000 L CNN
+F 1 "WS2812B" H 8419 2430 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 8125 2175 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8175 2100 50  0001 L TNN
+	1    8075 2475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1E7A
+P 7775 2075
+AR Path="/54B2C0DD/638D1E7A" Ref="C?"  Part="1" 
+AR Path="/638D1E7A" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1E7A" Ref="C213"  Part="1" 
+F 0 "C213" H 7867 2121 50  0000 L CNN
+F 1 "100nF" H 7867 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7775 2075 50  0001 C CNN
+F 3 "~" H 7775 2075 50  0001 C CNN
+	1    7775 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E80
+P 7775 2175
+AR Path="/54B2C0DD/638D1E80" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E80" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E80" Ref="#PWR0236"  Part="1" 
+F 0 "#PWR0236" H 7775 1925 50  0001 C CNN
+F 1 "GND" H 7780 2002 50  0000 C CNN
+F 2 "" H 7775 2175 50  0001 C CNN
+F 3 "" H 7775 2175 50  0001 C CNN
+	1    7775 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1E86
+P 7775 1975
+AR Path="/54B2C0DD/638D1E86" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E86" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E86" Ref="#PWR0229"  Part="1" 
+F 0 "#PWR0229" H 7775 1825 50  0001 C CNN
+F 1 "+5V" H 7790 2148 50  0000 C CNN
+F 2 "" H 7775 1975 50  0001 C CNN
+F 3 "" H 7775 1975 50  0001 C CNN
+	1    7775 1975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 1975 8075 1975
+Wire Wire Line
+	8075 1975 8075 2175
+Connection ~ 7775 1975
+$Comp
+L power:GND #PWR?
+U 1 1 638D1E8F
+P 8075 2775
+AR Path="/54B2C0DD/638D1E8F" Ref="#PWR?"  Part="1" 
+AR Path="/638D1E8F" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1E8F" Ref="#PWR0243"  Part="1" 
+F 0 "#PWR0243" H 8075 2525 50  0001 C CNN
+F 1 "GND" H 8080 2602 50  0000 C CNN
+F 2 "" H 8075 2775 50  0001 C CNN
+F 3 "" H 8075 2775 50  0001 C CNN
+	1    8075 2775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8875 2475 8375 2475
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1E96
+P 6975 2475
+AR Path="/54B2C0DD/638D1E96" Ref="D?"  Part="1" 
+AR Path="/638D1E96" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1E96" Ref="D211"  Part="1" 
+F 0 "D211" H 7319 2521 50  0000 L CNN
+F 1 "WS2812B" H 7319 2430 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 7025 2175 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7075 2100 50  0001 L TNN
+	1    6975 2475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1E9C
+P 6675 2075
+AR Path="/54B2C0DD/638D1E9C" Ref="C?"  Part="1" 
+AR Path="/638D1E9C" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1E9C" Ref="C212"  Part="1" 
+F 0 "C212" H 6767 2121 50  0000 L CNN
+F 1 "100nF" H 6767 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6675 2075 50  0001 C CNN
+F 3 "~" H 6675 2075 50  0001 C CNN
+	1    6675 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1EA2
+P 6675 2175
+AR Path="/54B2C0DD/638D1EA2" Ref="#PWR?"  Part="1" 
+AR Path="/638D1EA2" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1EA2" Ref="#PWR0235"  Part="1" 
+F 0 "#PWR0235" H 6675 1925 50  0001 C CNN
+F 1 "GND" H 6680 2002 50  0000 C CNN
+F 2 "" H 6675 2175 50  0001 C CNN
+F 3 "" H 6675 2175 50  0001 C CNN
+	1    6675 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1EA8
+P 6675 1975
+AR Path="/54B2C0DD/638D1EA8" Ref="#PWR?"  Part="1" 
+AR Path="/638D1EA8" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1EA8" Ref="#PWR0228"  Part="1" 
+F 0 "#PWR0228" H 6675 1825 50  0001 C CNN
+F 1 "+5V" H 6690 2148 50  0000 C CNN
+F 2 "" H 6675 1975 50  0001 C CNN
+F 3 "" H 6675 1975 50  0001 C CNN
+	1    6675 1975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 1975 6975 1975
+Wire Wire Line
+	6975 1975 6975 2175
+Connection ~ 6675 1975
+$Comp
+L power:GND #PWR?
+U 1 1 638D1EB1
+P 6975 2775
+AR Path="/54B2C0DD/638D1EB1" Ref="#PWR?"  Part="1" 
+AR Path="/638D1EB1" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1EB1" Ref="#PWR0242"  Part="1" 
+F 0 "#PWR0242" H 6975 2525 50  0001 C CNN
+F 1 "GND" H 6980 2602 50  0000 C CNN
+F 2 "" H 6975 2775 50  0001 C CNN
+F 3 "" H 6975 2775 50  0001 C CNN
+	1    6975 2775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7775 2475 7275 2475
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1EB8
+P 5875 2475
+AR Path="/54B2C0DD/638D1EB8" Ref="D?"  Part="1" 
+AR Path="/638D1EB8" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1EB8" Ref="D210"  Part="1" 
+F 0 "D210" H 6219 2521 50  0000 L CNN
+F 1 "WS2812B" H 6219 2430 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 5925 2175 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5975 2100 50  0001 L TNN
+	1    5875 2475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1EBE
+P 5575 2075
+AR Path="/54B2C0DD/638D1EBE" Ref="C?"  Part="1" 
+AR Path="/638D1EBE" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1EBE" Ref="C211"  Part="1" 
+F 0 "C211" H 5667 2121 50  0000 L CNN
+F 1 "100nF" H 5667 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5575 2075 50  0001 C CNN
+F 3 "~" H 5575 2075 50  0001 C CNN
+	1    5575 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1EC4
+P 5575 2175
+AR Path="/54B2C0DD/638D1EC4" Ref="#PWR?"  Part="1" 
+AR Path="/638D1EC4" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1EC4" Ref="#PWR0234"  Part="1" 
+F 0 "#PWR0234" H 5575 1925 50  0001 C CNN
+F 1 "GND" H 5580 2002 50  0000 C CNN
+F 2 "" H 5575 2175 50  0001 C CNN
+F 3 "" H 5575 2175 50  0001 C CNN
+	1    5575 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1ECA
+P 5575 1975
+AR Path="/54B2C0DD/638D1ECA" Ref="#PWR?"  Part="1" 
+AR Path="/638D1ECA" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1ECA" Ref="#PWR0227"  Part="1" 
+F 0 "#PWR0227" H 5575 1825 50  0001 C CNN
+F 1 "+5V" H 5590 2148 50  0000 C CNN
+F 2 "" H 5575 1975 50  0001 C CNN
+F 3 "" H 5575 1975 50  0001 C CNN
+	1    5575 1975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 1975 5875 1975
+Wire Wire Line
+	5875 1975 5875 2175
+Connection ~ 5575 1975
+$Comp
+L power:GND #PWR?
+U 1 1 638D1ED3
+P 5875 2775
+AR Path="/54B2C0DD/638D1ED3" Ref="#PWR?"  Part="1" 
+AR Path="/638D1ED3" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1ED3" Ref="#PWR0241"  Part="1" 
+F 0 "#PWR0241" H 5875 2525 50  0001 C CNN
+F 1 "GND" H 5880 2602 50  0000 C CNN
+F 2 "" H 5875 2775 50  0001 C CNN
+F 3 "" H 5875 2775 50  0001 C CNN
+	1    5875 2775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 2475 6175 2475
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1EDA
+P 4775 2475
+AR Path="/54B2C0DD/638D1EDA" Ref="D?"  Part="1" 
+AR Path="/638D1EDA" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1EDA" Ref="D209"  Part="1" 
+F 0 "D209" H 5119 2521 50  0000 L CNN
+F 1 "WS2812B" H 5119 2430 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 4825 2175 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4875 2100 50  0001 L TNN
+	1    4775 2475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1EE0
+P 4475 2075
+AR Path="/54B2C0DD/638D1EE0" Ref="C?"  Part="1" 
+AR Path="/638D1EE0" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1EE0" Ref="C210"  Part="1" 
+F 0 "C210" H 4567 2121 50  0000 L CNN
+F 1 "100nF" H 4567 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 4475 2075 50  0001 C CNN
+F 3 "~" H 4475 2075 50  0001 C CNN
+	1    4475 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1EE6
+P 4475 2175
+AR Path="/54B2C0DD/638D1EE6" Ref="#PWR?"  Part="1" 
+AR Path="/638D1EE6" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1EE6" Ref="#PWR0233"  Part="1" 
+F 0 "#PWR0233" H 4475 1925 50  0001 C CNN
+F 1 "GND" H 4480 2002 50  0000 C CNN
+F 2 "" H 4475 2175 50  0001 C CNN
+F 3 "" H 4475 2175 50  0001 C CNN
+	1    4475 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1EEC
+P 4475 1975
+AR Path="/54B2C0DD/638D1EEC" Ref="#PWR?"  Part="1" 
+AR Path="/638D1EEC" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1EEC" Ref="#PWR0226"  Part="1" 
+F 0 "#PWR0226" H 4475 1825 50  0001 C CNN
+F 1 "+5V" H 4490 2148 50  0000 C CNN
+F 2 "" H 4475 1975 50  0001 C CNN
+F 3 "" H 4475 1975 50  0001 C CNN
+	1    4475 1975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 1975 4775 1975
+Wire Wire Line
+	4775 1975 4775 2175
+Connection ~ 4475 1975
+$Comp
+L power:GND #PWR?
+U 1 1 638D1EF5
+P 4775 2775
+AR Path="/54B2C0DD/638D1EF5" Ref="#PWR?"  Part="1" 
+AR Path="/638D1EF5" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1EF5" Ref="#PWR0240"  Part="1" 
+F 0 "#PWR0240" H 4775 2525 50  0001 C CNN
+F 1 "GND" H 4780 2602 50  0000 C CNN
+F 2 "" H 4775 2775 50  0001 C CNN
+F 3 "" H 4775 2775 50  0001 C CNN
+	1    4775 2775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 2475 5075 2475
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1EFC
+P 3675 2475
+AR Path="/54B2C0DD/638D1EFC" Ref="D?"  Part="1" 
+AR Path="/638D1EFC" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1EFC" Ref="D208"  Part="1" 
+F 0 "D208" H 4019 2521 50  0000 L CNN
+F 1 "WS2812B" H 4019 2430 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 3725 2175 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3775 2100 50  0001 L TNN
+	1    3675 2475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1F02
+P 3375 2075
+AR Path="/54B2C0DD/638D1F02" Ref="C?"  Part="1" 
+AR Path="/638D1F02" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1F02" Ref="C209"  Part="1" 
+F 0 "C209" H 3467 2121 50  0000 L CNN
+F 1 "100nF" H 3467 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3375 2075 50  0001 C CNN
+F 3 "~" H 3375 2075 50  0001 C CNN
+	1    3375 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F08
+P 3375 2175
+AR Path="/54B2C0DD/638D1F08" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F08" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F08" Ref="#PWR0232"  Part="1" 
+F 0 "#PWR0232" H 3375 1925 50  0001 C CNN
+F 1 "GND" H 3380 2002 50  0000 C CNN
+F 2 "" H 3375 2175 50  0001 C CNN
+F 3 "" H 3375 2175 50  0001 C CNN
+	1    3375 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1F0E
+P 3375 1975
+AR Path="/54B2C0DD/638D1F0E" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F0E" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F0E" Ref="#PWR0225"  Part="1" 
+F 0 "#PWR0225" H 3375 1825 50  0001 C CNN
+F 1 "+5V" H 3390 2148 50  0000 C CNN
+F 2 "" H 3375 1975 50  0001 C CNN
+F 3 "" H 3375 1975 50  0001 C CNN
+	1    3375 1975
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 1975 3675 1975
+Wire Wire Line
+	3675 1975 3675 2175
+Connection ~ 3375 1975
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F17
+P 3675 2775
+AR Path="/54B2C0DD/638D1F17" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F17" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F17" Ref="#PWR0239"  Part="1" 
+F 0 "#PWR0239" H 3675 2525 50  0001 C CNN
+F 1 "GND" H 3680 2602 50  0000 C CNN
+F 2 "" H 3675 2775 50  0001 C CNN
+F 3 "" H 3675 2775 50  0001 C CNN
+	1    3675 2775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4475 2475 3975 2475
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F1E
+P 10275 2775
+AR Path="/54B2C0DD/638D1F1E" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F1E" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F1E" Ref="#PWR0245"  Part="1" 
+F 0 "#PWR0245" H 10275 2525 50  0001 C CNN
+F 1 "GND" H 10280 2602 50  0000 C CNN
+F 2 "" H 10275 2775 50  0001 C CNN
+F 3 "" H 10275 2775 50  0001 C CNN
+	1    10275 2775
+	-1   0    0    -1  
+$EndComp
+Connection ~ 9975 1975
+Wire Wire Line
+	10275 1975 10275 2175
+Wire Wire Line
+	9975 1975 10275 1975
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1F27
+P 9975 1975
+AR Path="/54B2C0DD/638D1F27" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F27" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F27" Ref="#PWR0231"  Part="1" 
+F 0 "#PWR0231" H 9975 1825 50  0001 C CNN
+F 1 "+5V" H 9990 2148 50  0000 C CNN
+F 2 "" H 9975 1975 50  0001 C CNN
+F 3 "" H 9975 1975 50  0001 C CNN
+	1    9975 1975
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F2D
+P 9975 2175
+AR Path="/54B2C0DD/638D1F2D" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F2D" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F2D" Ref="#PWR0238"  Part="1" 
+F 0 "#PWR0238" H 9975 1925 50  0001 C CNN
+F 1 "GND" H 9980 2002 50  0000 C CNN
+F 2 "" H 9975 2175 50  0001 C CNN
+F 3 "" H 9975 2175 50  0001 C CNN
+	1    9975 2175
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1F33
+P 9975 2075
+AR Path="/54B2C0DD/638D1F33" Ref="C?"  Part="1" 
+AR Path="/638D1F33" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1F33" Ref="C215"  Part="1" 
+F 0 "C215" H 10067 2121 50  0000 L CNN
+F 1 "100nF" H 10067 2030 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9975 2075 50  0001 C CNN
+F 3 "~" H 9975 2075 50  0001 C CNN
+	1    9975 2075
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1F39
+P 10275 2475
+AR Path="/54B2C0DD/638D1F39" Ref="D?"  Part="1" 
+AR Path="/638D1F39" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1F39" Ref="D214"  Part="1" 
+F 0 "D214" H 10619 2521 50  0000 L CNN
+F 1 "WS2812B" H 10619 2430 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 10325 2175 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10375 2100 50  0001 L TNN
+	1    10275 2475
+	-1   0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1F3F
+P 4775 1325
+AR Path="/54B2C0DD/638D1F3F" Ref="D?"  Part="1" 
+AR Path="/638D1F3F" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1F3F" Ref="D202"  Part="1" 
+F 0 "D202" H 5119 1371 50  0000 L CNN
+F 1 "WS2812B" H 5119 1280 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 4825 1025 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 4875 950 50  0001 L TNN
+	1    4775 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1F45
+P 5075 925
+AR Path="/54B2C0DD/638D1F45" Ref="C?"  Part="1" 
+AR Path="/638D1F45" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1F45" Ref="C203"  Part="1" 
+F 0 "C203" H 5167 971 50  0000 L CNN
+F 1 "100nF" H 5167 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 5075 925 50  0001 C CNN
+F 3 "~" H 5075 925 50  0001 C CNN
+	1    5075 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F4B
+P 5075 1025
+AR Path="/54B2C0DD/638D1F4B" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F4B" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F4B" Ref="#PWR0211"  Part="1" 
+F 0 "#PWR0211" H 5075 775 50  0001 C CNN
+F 1 "GND" H 5080 852 50  0000 C CNN
+F 2 "" H 5075 1025 50  0001 C CNN
+F 3 "" H 5075 1025 50  0001 C CNN
+	1    5075 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1F51
+P 5075 825
+AR Path="/54B2C0DD/638D1F51" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F51" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F51" Ref="#PWR0203"  Part="1" 
+F 0 "#PWR0203" H 5075 675 50  0001 C CNN
+F 1 "+5V" H 5090 998 50  0000 C CNN
+F 2 "" H 5075 825 50  0001 C CNN
+F 3 "" H 5075 825 50  0001 C CNN
+	1    5075 825 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 825  4775 825 
+Wire Wire Line
+	4775 825  4775 1025
+Connection ~ 5075 825 
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F5A
+P 4775 1625
+AR Path="/54B2C0DD/638D1F5A" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F5A" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F5A" Ref="#PWR0219"  Part="1" 
+F 0 "#PWR0219" H 4775 1375 50  0001 C CNN
+F 1 "GND" H 4780 1452 50  0000 C CNN
+F 2 "" H 4775 1625 50  0001 C CNN
+F 3 "" H 4775 1625 50  0001 C CNN
+	1    4775 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3975 1325 4475 1325
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1F61
+P 5875 1325
+AR Path="/54B2C0DD/638D1F61" Ref="D?"  Part="1" 
+AR Path="/638D1F61" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1F61" Ref="D203"  Part="1" 
+F 0 "D203" H 6219 1371 50  0000 L CNN
+F 1 "WS2812B" H 6219 1280 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 5925 1025 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 5975 950 50  0001 L TNN
+	1    5875 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1F67
+P 6175 925
+AR Path="/54B2C0DD/638D1F67" Ref="C?"  Part="1" 
+AR Path="/638D1F67" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1F67" Ref="C204"  Part="1" 
+F 0 "C204" H 6267 971 50  0000 L CNN
+F 1 "100nF" H 6267 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 6175 925 50  0001 C CNN
+F 3 "~" H 6175 925 50  0001 C CNN
+	1    6175 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F6D
+P 6175 1025
+AR Path="/54B2C0DD/638D1F6D" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F6D" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F6D" Ref="#PWR0212"  Part="1" 
+F 0 "#PWR0212" H 6175 775 50  0001 C CNN
+F 1 "GND" H 6180 852 50  0000 C CNN
+F 2 "" H 6175 1025 50  0001 C CNN
+F 3 "" H 6175 1025 50  0001 C CNN
+	1    6175 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1F73
+P 6175 825
+AR Path="/54B2C0DD/638D1F73" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F73" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F73" Ref="#PWR0204"  Part="1" 
+F 0 "#PWR0204" H 6175 675 50  0001 C CNN
+F 1 "+5V" H 6190 998 50  0000 C CNN
+F 2 "" H 6175 825 50  0001 C CNN
+F 3 "" H 6175 825 50  0001 C CNN
+	1    6175 825 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 825  5875 825 
+Wire Wire Line
+	5875 825  5875 1025
+Connection ~ 6175 825 
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F7C
+P 5875 1625
+AR Path="/54B2C0DD/638D1F7C" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F7C" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F7C" Ref="#PWR0220"  Part="1" 
+F 0 "#PWR0220" H 5875 1375 50  0001 C CNN
+F 1 "GND" H 5880 1452 50  0000 C CNN
+F 2 "" H 5875 1625 50  0001 C CNN
+F 3 "" H 5875 1625 50  0001 C CNN
+	1    5875 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 1325 5575 1325
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1F83
+P 6975 1325
+AR Path="/54B2C0DD/638D1F83" Ref="D?"  Part="1" 
+AR Path="/638D1F83" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1F83" Ref="D204"  Part="1" 
+F 0 "D204" H 7319 1371 50  0000 L CNN
+F 1 "WS2812B" H 7319 1280 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 7025 1025 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7075 950 50  0001 L TNN
+	1    6975 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1F89
+P 7275 925
+AR Path="/54B2C0DD/638D1F89" Ref="C?"  Part="1" 
+AR Path="/638D1F89" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1F89" Ref="C205"  Part="1" 
+F 0 "C205" H 7367 971 50  0000 L CNN
+F 1 "100nF" H 7367 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 7275 925 50  0001 C CNN
+F 3 "~" H 7275 925 50  0001 C CNN
+	1    7275 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F8F
+P 7275 1025
+AR Path="/54B2C0DD/638D1F8F" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F8F" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F8F" Ref="#PWR0213"  Part="1" 
+F 0 "#PWR0213" H 7275 775 50  0001 C CNN
+F 1 "GND" H 7280 852 50  0000 C CNN
+F 2 "" H 7275 1025 50  0001 C CNN
+F 3 "" H 7275 1025 50  0001 C CNN
+	1    7275 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1F95
+P 7275 825
+AR Path="/54B2C0DD/638D1F95" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F95" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F95" Ref="#PWR0205"  Part="1" 
+F 0 "#PWR0205" H 7275 675 50  0001 C CNN
+F 1 "+5V" H 7290 998 50  0000 C CNN
+F 2 "" H 7275 825 50  0001 C CNN
+F 3 "" H 7275 825 50  0001 C CNN
+	1    7275 825 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 825  6975 825 
+Wire Wire Line
+	6975 825  6975 1025
+Connection ~ 7275 825 
+$Comp
+L power:GND #PWR?
+U 1 1 638D1F9E
+P 6975 1625
+AR Path="/54B2C0DD/638D1F9E" Ref="#PWR?"  Part="1" 
+AR Path="/638D1F9E" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1F9E" Ref="#PWR0221"  Part="1" 
+F 0 "#PWR0221" H 6975 1375 50  0001 C CNN
+F 1 "GND" H 6980 1452 50  0000 C CNN
+F 2 "" H 6975 1625 50  0001 C CNN
+F 3 "" H 6975 1625 50  0001 C CNN
+	1    6975 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6175 1325 6675 1325
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1FA5
+P 8075 1325
+AR Path="/54B2C0DD/638D1FA5" Ref="D?"  Part="1" 
+AR Path="/638D1FA5" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1FA5" Ref="D205"  Part="1" 
+F 0 "D205" H 8419 1371 50  0000 L CNN
+F 1 "WS2812B" H 8419 1280 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 8125 1025 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8175 950 50  0001 L TNN
+	1    8075 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1FAB
+P 8375 925
+AR Path="/54B2C0DD/638D1FAB" Ref="C?"  Part="1" 
+AR Path="/638D1FAB" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1FAB" Ref="C206"  Part="1" 
+F 0 "C206" H 8467 971 50  0000 L CNN
+F 1 "100nF" H 8467 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 8375 925 50  0001 C CNN
+F 3 "~" H 8375 925 50  0001 C CNN
+	1    8375 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1FB1
+P 8375 1025
+AR Path="/54B2C0DD/638D1FB1" Ref="#PWR?"  Part="1" 
+AR Path="/638D1FB1" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1FB1" Ref="#PWR0214"  Part="1" 
+F 0 "#PWR0214" H 8375 775 50  0001 C CNN
+F 1 "GND" H 8380 852 50  0000 C CNN
+F 2 "" H 8375 1025 50  0001 C CNN
+F 3 "" H 8375 1025 50  0001 C CNN
+	1    8375 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1FB7
+P 8375 825
+AR Path="/54B2C0DD/638D1FB7" Ref="#PWR?"  Part="1" 
+AR Path="/638D1FB7" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1FB7" Ref="#PWR0206"  Part="1" 
+F 0 "#PWR0206" H 8375 675 50  0001 C CNN
+F 1 "+5V" H 8390 998 50  0000 C CNN
+F 2 "" H 8375 825 50  0001 C CNN
+F 3 "" H 8375 825 50  0001 C CNN
+	1    8375 825 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 825  8075 825 
+Wire Wire Line
+	8075 825  8075 1025
+Connection ~ 8375 825 
+$Comp
+L power:GND #PWR?
+U 1 1 638D1FC0
+P 8075 1625
+AR Path="/54B2C0DD/638D1FC0" Ref="#PWR?"  Part="1" 
+AR Path="/638D1FC0" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1FC0" Ref="#PWR0222"  Part="1" 
+F 0 "#PWR0222" H 8075 1375 50  0001 C CNN
+F 1 "GND" H 8080 1452 50  0000 C CNN
+F 2 "" H 8075 1625 50  0001 C CNN
+F 3 "" H 8075 1625 50  0001 C CNN
+	1    8075 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 1325 7775 1325
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1FC7
+P 9175 1325
+AR Path="/54B2C0DD/638D1FC7" Ref="D?"  Part="1" 
+AR Path="/638D1FC7" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1FC7" Ref="D206"  Part="1" 
+F 0 "D206" H 9519 1371 50  0000 L CNN
+F 1 "WS2812B" H 9519 1280 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 9225 1025 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 9275 950 50  0001 L TNN
+	1    9175 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1FCD
+P 9475 925
+AR Path="/54B2C0DD/638D1FCD" Ref="C?"  Part="1" 
+AR Path="/638D1FCD" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1FCD" Ref="C207"  Part="1" 
+F 0 "C207" H 9567 971 50  0000 L CNN
+F 1 "100nF" H 9567 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9475 925 50  0001 C CNN
+F 3 "~" H 9475 925 50  0001 C CNN
+	1    9475 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1FD3
+P 9475 1025
+AR Path="/54B2C0DD/638D1FD3" Ref="#PWR?"  Part="1" 
+AR Path="/638D1FD3" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1FD3" Ref="#PWR0215"  Part="1" 
+F 0 "#PWR0215" H 9475 775 50  0001 C CNN
+F 1 "GND" H 9480 852 50  0000 C CNN
+F 2 "" H 9475 1025 50  0001 C CNN
+F 3 "" H 9475 1025 50  0001 C CNN
+	1    9475 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1FD9
+P 9475 825
+AR Path="/54B2C0DD/638D1FD9" Ref="#PWR?"  Part="1" 
+AR Path="/638D1FD9" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1FD9" Ref="#PWR0207"  Part="1" 
+F 0 "#PWR0207" H 9475 675 50  0001 C CNN
+F 1 "+5V" H 9490 998 50  0000 C CNN
+F 2 "" H 9475 825 50  0001 C CNN
+F 3 "" H 9475 825 50  0001 C CNN
+	1    9475 825 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 825  9175 825 
+Wire Wire Line
+	9175 825  9175 1025
+Connection ~ 9475 825 
+$Comp
+L power:GND #PWR?
+U 1 1 638D1FE2
+P 9175 1625
+AR Path="/54B2C0DD/638D1FE2" Ref="#PWR?"  Part="1" 
+AR Path="/638D1FE2" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1FE2" Ref="#PWR0223"  Part="1" 
+F 0 "#PWR0223" H 9175 1375 50  0001 C CNN
+F 1 "GND" H 9180 1452 50  0000 C CNN
+F 2 "" H 9175 1625 50  0001 C CNN
+F 3 "" H 9175 1625 50  0001 C CNN
+	1    9175 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8375 1325 8875 1325
+$Comp
+L LED:WS2812B D?
+U 1 1 638D1FE9
+P 10275 1325
+AR Path="/54B2C0DD/638D1FE9" Ref="D?"  Part="1" 
+AR Path="/638D1FE9" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D1FE9" Ref="D207"  Part="1" 
+F 0 "D207" H 10619 1371 50  0000 L CNN
+F 1 "WS2812B" H 10619 1280 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 10325 1025 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 10375 950 50  0001 L TNN
+	1    10275 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D1FEF
+P 10575 925
+AR Path="/54B2C0DD/638D1FEF" Ref="C?"  Part="1" 
+AR Path="/638D1FEF" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D1FEF" Ref="C208"  Part="1" 
+F 0 "C208" H 10667 971 50  0000 L CNN
+F 1 "100nF" H 10667 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 10575 925 50  0001 C CNN
+F 3 "~" H 10575 925 50  0001 C CNN
+	1    10575 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D1FF5
+P 10575 1025
+AR Path="/54B2C0DD/638D1FF5" Ref="#PWR?"  Part="1" 
+AR Path="/638D1FF5" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1FF5" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 10575 775 50  0001 C CNN
+F 1 "GND" H 10580 852 50  0000 C CNN
+F 2 "" H 10575 1025 50  0001 C CNN
+F 3 "" H 10575 1025 50  0001 C CNN
+	1    10575 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D1FFB
+P 10575 825
+AR Path="/54B2C0DD/638D1FFB" Ref="#PWR?"  Part="1" 
+AR Path="/638D1FFB" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D1FFB" Ref="#PWR0208"  Part="1" 
+F 0 "#PWR0208" H 10575 675 50  0001 C CNN
+F 1 "+5V" H 10590 998 50  0000 C CNN
+F 2 "" H 10575 825 50  0001 C CNN
+F 3 "" H 10575 825 50  0001 C CNN
+	1    10575 825 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10575 825  10275 825 
+Wire Wire Line
+	10275 825  10275 1025
+Connection ~ 10575 825 
+$Comp
+L power:GND #PWR?
+U 1 1 638D2004
+P 10275 1625
+AR Path="/54B2C0DD/638D2004" Ref="#PWR?"  Part="1" 
+AR Path="/638D2004" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D2004" Ref="#PWR0224"  Part="1" 
+F 0 "#PWR0224" H 10275 1375 50  0001 C CNN
+F 1 "GND" H 10280 1452 50  0000 C CNN
+F 2 "" H 10275 1625 50  0001 C CNN
+F 3 "" H 10275 1625 50  0001 C CNN
+	1    10275 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9475 1325 9975 1325
+$Comp
+L power:GND #PWR?
+U 1 1 638D200B
+P 3675 1625
+AR Path="/54B2C0DD/638D200B" Ref="#PWR?"  Part="1" 
+AR Path="/638D200B" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D200B" Ref="#PWR0218"  Part="1" 
+F 0 "#PWR0218" H 3675 1375 50  0001 C CNN
+F 1 "GND" H 3680 1452 50  0000 C CNN
+F 2 "" H 3675 1625 50  0001 C CNN
+F 3 "" H 3675 1625 50  0001 C CNN
+	1    3675 1625
+	1    0    0    -1  
+$EndComp
+Connection ~ 3975 825 
+Wire Wire Line
+	3675 825  3675 1025
+Wire Wire Line
+	3975 825  3675 825 
+$Comp
+L power:+5V #PWR?
+U 1 1 638D2014
+P 3975 825
+AR Path="/54B2C0DD/638D2014" Ref="#PWR?"  Part="1" 
+AR Path="/638D2014" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D2014" Ref="#PWR0202"  Part="1" 
+F 0 "#PWR0202" H 3975 675 50  0001 C CNN
+F 1 "+5V" H 3990 998 50  0000 C CNN
+F 2 "" H 3975 825 50  0001 C CNN
+F 3 "" H 3975 825 50  0001 C CNN
+	1    3975 825 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D201A
+P 3975 1025
+AR Path="/54B2C0DD/638D201A" Ref="#PWR?"  Part="1" 
+AR Path="/638D201A" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D201A" Ref="#PWR0210"  Part="1" 
+F 0 "#PWR0210" H 3975 775 50  0001 C CNN
+F 1 "GND" H 3980 852 50  0000 C CNN
+F 2 "" H 3975 1025 50  0001 C CNN
+F 3 "" H 3975 1025 50  0001 C CNN
+	1    3975 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D2020
+P 3975 925
+AR Path="/54B2C0DD/638D2020" Ref="C?"  Part="1" 
+AR Path="/638D2020" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D2020" Ref="C202"  Part="1" 
+F 0 "C202" H 4067 971 50  0000 L CNN
+F 1 "100nF" H 4067 880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 3975 925 50  0001 C CNN
+F 3 "~" H 3975 925 50  0001 C CNN
+	1    3975 925 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D?
+U 1 1 638D2026
+P 3675 1325
+AR Path="/54B2C0DD/638D2026" Ref="D?"  Part="1" 
+AR Path="/638D2026" Ref="D?"  Part="1" 
+AR Path="/6386A3BC/638D2026" Ref="D201"  Part="1" 
+F 0 "D201" H 4019 1371 50  0000 L CNN
+F 1 "WS2812B" H 4019 1280 50  0000 L CNN
+F 2 "LED_SMD:LED_SK6805_PLCC4_2.4x2.7mm_P1.3mm" H 3725 1025 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 3775 950 50  0001 L TNN
+	1    3675 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 638D202C
+P 975 1125
+AR Path="/54B2C0DD/638D202C" Ref="#PWR?"  Part="1" 
+AR Path="/638D202C" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D202C" Ref="#PWR0201"  Part="1" 
+F 0 "#PWR0201" H 975 975 50  0001 C CNN
+F 1 "+5V" H 990 1298 50  0000 C CNN
+F 2 "" H 975 1125 50  0001 C CNN
+F 3 "" H 975 1125 50  0001 C CNN
+	1    975  1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D2032
+P 975 1325
+AR Path="/54B2C0DD/638D2032" Ref="#PWR?"  Part="1" 
+AR Path="/638D2032" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D2032" Ref="#PWR0209"  Part="1" 
+F 0 "#PWR0209" H 975 1075 50  0001 C CNN
+F 1 "GND" H 980 1152 50  0000 C CNN
+F 2 "" H 975 1325 50  0001 C CNN
+F 3 "" H 975 1325 50  0001 C CNN
+	1    975  1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 638D2038
+P 975 1225
+AR Path="/54B2C0DD/638D2038" Ref="C?"  Part="1" 
+AR Path="/638D2038" Ref="C?"  Part="1" 
+AR Path="/6386A3BC/638D2038" Ref="C201"  Part="1" 
+F 0 "C201" H 625 1275 50  0000 L CNN
+F 1 "100nF" H 625 1175 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 975 1225 50  0001 C CNN
+F 3 "~" H 975 1225 50  0001 C CNN
+	1    975  1225
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 638D203E
+P 2725 1825
+AR Path="/54B2C0DD/638D203E" Ref="#PWR?"  Part="1" 
+AR Path="/638D203E" Ref="#PWR?"  Part="1" 
+AR Path="/6386A3BC/638D203E" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 2725 1575 50  0001 C CNN
+F 1 "GND" H 2730 1652 50  0000 C CNN
+F 2 "" H 2725 1825 50  0001 C CNN
+F 3 "" H 2725 1825 50  0001 C CNN
+	1    2725 1825
+	1    0    0    -1  
+$EndComp
+$Comp
+L SN74LV1T125DCKR:SN74LV1T125DCKR U?
+U 1 1 638D2048
+P 2225 1525
+AR Path="/54B2C0DD/638D2048" Ref="U?"  Part="1" 
+AR Path="/638D2048" Ref="U?"  Part="1" 
+AR Path="/6386A3BC/638D2048" Ref="U201"  Part="1" 
+F 0 "U201" H 2225 2192 50  0000 C CNN
+F 1 "SN74LV1T125DCKR" H 2225 2101 50  0000 C CNN
+F 2 "SOT65P210X110-5N" H 2225 1525 50  0001 L BNN
+F 3 "" H 2225 1525 50  0001 L BNN
+F 4 "1.1mm" H 2225 1525 50  0001 L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F 5 "IPC-7351B" H 2225 1525 50  0001 L BNN "STANDARD"
+F 6 "A" H 2225 1525 50  0001 L BNN "PARTREV"
+F 7 "Texas Instruments" H 2225 1525 50  0001 L BNN "MANUFACTURER"
+	1    2225 1525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 638D204E
+P 3075 1475
+AR Path="/54B2C0DD/638D204E" Ref="R?"  Part="1" 
+AR Path="/638D204E" Ref="R?"  Part="1" 
+AR Path="/6386A3BC/638D204E" Ref="R201"  Part="1" 
+F 0 "R201" H 2925 1550 50  0000 C CNN
+F 1 "300" H 2900 1475 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 3005 1475 50  0001 C CNN
+F 3 "~" H 3075 1475 50  0001 C CNN
+	1    3075 1475
+	1    0    0    -1  
+$EndComp
+Text HLabel 1725 1325 0    50   Input ~ 0
+BACKLIGHT_EN
+Text HLabel 1725 1625 0    50   Input ~ 0
+BACKLIGHT_DATA
+Wire Wire Line
+	975  1125 1725 1125
+Wire Wire Line
+	2725 1625 3075 1625
+Wire Wire Line
+	3075 1325 3375 1325
+$EndSCHEMATC
