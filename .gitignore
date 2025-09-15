@@ -44,3 +44,7 @@ fp-info-cache
 /lib/backup/
 /output/
 /rescue-backup/
+*backups*
+*.lck
+/hardware/controller/production/*
+/hardware/keyboard/#auto_saved_files#

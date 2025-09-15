@@ -1,0 +1,1805 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "881fafcb-dcc5-49c3-aa37-2ca2f266745d")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Diode:1N4148WT"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148WT"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "1N4148WT_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148WT_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "ergoducks:SK6812MINI-E"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "SK6812MINI-E"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "prettylib:SK6812MINI-E-reversible"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel Mini addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK6812MINI-E_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SK6812MINI-E_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:+VSW"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+VSW"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+VSW\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+VSW_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+VSW_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "+VSW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 130.175 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e78be7fc-f39d-449e-bdcf-3b162fb38b45")
+	)
+	(wire
+		(pts
+			(xy 130.175 82.55) (xy 122.555 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31018490-44cb-43d7-957c-ee9bd5c4750a")
+	)
+	(wire
+		(pts
+			(xy 122.555 82.55) (xy 122.555 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9379292-13b4-4acf-acf3-6ff62522536c")
+	)
+	(wire
+		(pts
+			(xy 125.73 68.58) (xy 128.27 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daeadfa1-754a-412e-bddd-4742e1c2c4bc")
+	)
+	(wire
+		(pts
+			(xy 130.175 95.25) (xy 147.32 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7ee3fcb-73f2-41f2-be8f-b08fde4ab4f0")
+	)
+	(wire
+		(pts
+			(xy 105.41 68.58) (xy 107.95 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd28bae9-8128-4be8-a3d2-b924d35b830c")
+	)
+	(hierarchical_label "DIN"
+		(shape input)
+		(at 114.935 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "20457713-feee-49d0-bfbf-e60ba4f0277c")
+	)
+	(hierarchical_label "ROW"
+		(shape input)
+		(at 128.27 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ac69a974-020f-4066-804d-cd44536cdb82")
+	)
+	(hierarchical_label "DOUT"
+		(shape input)
+		(at 147.32 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c8679aa5-c93a-4f24-953c-7450c3b59db8")
+	)
+	(hierarchical_label "COL"
+		(shape output)
+		(at 105.41 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec6a2786-b126-4d44-b67c-bb8aa7dba931")
+	)
+	(symbol
+		(lib_id "ergoducks:SK6812MINI-E")
+		(at 122.555 95.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ddf86fc-32a2-42e7-8017-63d3f4cb0b5f")
+		(property "Reference" "D302"
+			(at 131.2926 94.0816 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 131.2926 96.393 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "prettylib:SK6812MINI-E-reversible"
+			(at 123.825 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+			(at 125.095 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "DONGGUAN OPSCO OPTOELECTRONICS"
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" " "
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product name" "SK6812MINI-E"
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Adafruit partno" "4960"
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey partno" "1528-4960-ND"
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19fb7341-e1d0-439e-9de6-2acf7cba6217")
+		)
+		(pin "2"
+			(uuid "606697a3-4d64-4010-90de-8616bbc6a98c")
+		)
+		(pin "3"
+			(uuid "19b4d235-97d4-4fab-8823-ea3a23e4cc99")
+		)
+		(pin "4"
+			(uuid "aa061373-c6e6-4da3-b18d-b236ef06b860")
+		)
+		(instances
+			(project "ergoducks_keyboard"
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
+					(reference "D1702")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
+					(reference "D1002")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
+					(reference "D302")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
+					(reference "D3102")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
+					(reference "D3602")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
+					(reference "D2402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 130.175 87.63 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4131c1c7-d7c4-4cf3-8175-cacc687532c4")
+		(property "Reference" "#PWR0303"
+			(at 130.175 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.302 92.0242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.175 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.175 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.175 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "252f040e-ba72-4c2b-8f8e-95368b6f3e51")
+		)
+		(instances
+			(project "ergoducks_keyboard"
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
+					(reference "#PWR01703")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
+					(reference "#PWR01003")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
+					(reference "#PWR0303")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
+					(reference "#PWR03103")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
+					(reference "#PWR03603")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
+					(reference "#PWR02403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 120.65 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4916c2b7-c825-4ccc-bac9-1e46c56c2256")
+		(property "Reference" "SW301"
+			(at 125.73 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 120.65 63.6524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.50u"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 120.65 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Cherry"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" " "
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product name" "MX1A-G1NA "
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser partno" "540-MX1A-G1NA"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey partno" "MX1A-G1NA-ND"
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e16ca284-f5f3-4641-9fef-914a6e2d121f")
+		)
+		(pin "2"
+			(uuid "bfb9ddbe-02e7-4055-a29f-0b48a3025924")
+		)
+		(instances
+			(project "ergoducks_keyboard"
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
+					(reference "SW1701")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
+					(reference "SW1001")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
+					(reference "SW301")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
+					(reference "SW3101")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
+					(reference "SW3601")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
+					(reference "SW2401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+VSW")
+		(at 130.175 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5b062442-0dd3-49db-a0c0-8df3182c480f")
+		(property "Reference" "#PWR0302"
+			(at 130.175 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VSW"
+			(at 130.175 78.9742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.175 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.175 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.175 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d53faed2-2fe5-4df3-ac51-825e5cec63c0")
+		)
+		(instances
+			(project "ergoducks_keyboard"
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
+					(reference "#PWR01702")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
+					(reference "#PWR01002")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
+					(reference "#PWR0302")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
+					(reference "#PWR03102")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
+					(reference "#PWR03602")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
+					(reference "#PWR02402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 130.175 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d69988f-0212-46c2-994e-c4aead5262c3")
+		(property "Reference" "C301"
+			(at 132.5118 83.9216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 132.5118 86.233 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104JB8NNNC_Spec.pdf"
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MANUFACTURER" "Samsung"
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" " "
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Product name" "CL10B104JB8NNNC"
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser partno" "187-CL10B104JB8NNNC"
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Digikey partno" "1276-1033-1-ND"
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "203925d7-1fee-4725-82f4-33286376c359")
+		)
+		(pin "2"
+			(uuid "c8d76b34-7492-4a29-84d2-b2bf00ca54e7")
+		)
+		(instances
+			(project "ergoducks_keyboard"
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
+					(reference "C1701")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
+					(reference "C1001")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
+					(reference "C301")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
+					(reference "C3101")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
+					(reference "C3601")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
+					(reference "C2401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148WT")
+		(at 111.76 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d693e6d-9f38-473c-a89e-18ffd865b3dc")
+		(property "Reference" "D301"
+			(at 111.76 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148WT"
+			(at 111.76 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 111.76 73.025 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8fc854c5-0ce3-41fc-8743-9e19251b86df")
+		)
+		(pin "1"
+			(uuid "f39af244-fee5-4371-869a-065ccfa98f22")
+		)
+		(instances
+			(project "ergoducks_keyboard"
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
+					(reference "D1701")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
+					(reference "D1001")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
+					(reference "D301")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
+					(reference "D3101")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
+					(reference "D3601")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
+					(reference "D2401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 122.555 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bc673b6a-ccbb-4fd1-9c0d-9c05128a7618")
+		(property "Reference" "#PWR0301"
+			(at 122.555 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 122.682 107.2642 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.555 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.555 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 122.555 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb398235-6f8b-48d4-8d57-91fa7a6d0951")
+		)
+		(instances
+			(project "ergoducks_keyboard"
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
+					(reference "#PWR01701")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
+					(reference "#PWR01001")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
+					(reference "#PWR0301")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
+					(reference "#PWR03101")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
+					(reference "#PWR03601")
+					(unit 1)
+				)
+				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
+					(reference "#PWR02401")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
