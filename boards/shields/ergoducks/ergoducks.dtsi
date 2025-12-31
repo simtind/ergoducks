@@ -8,11 +8,11 @@
 / {
     chosen {
         zephyr,display = &oled;
-        zmk,kscan = &kscan0;
+        zmk,kscan = &kscan;
         zmk,physical-layout = &ergoducks_layout;
     };
 
-    kscan0: kscan {
+    kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         wakeup-source;
 
