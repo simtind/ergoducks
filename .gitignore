@@ -48,3 +48,6 @@ fp-info-cache
 *.lck
 /hardware/controller/production/*
 /hardware/keyboard/#auto_saved_files#
+
+.zmk/
+_git/
