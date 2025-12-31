@@ -6,7 +6,8 @@ jobs:
     defaults:
       run:
         working-directory: ./firmware
-    uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
-    with:
-      build_matrix_path: "./firmware/build.yaml"
-      config_path: "./firmware/config"
+    steps:
+      - uses: zmkfirmware/zmk/.github/workflows/build-user-config.yml@v0.3
+        with:
+          build_matrix_path: "./firmware/build.yaml"
+          config_path: "./firmware/config"
