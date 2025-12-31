@@ -4,7 +4,10 @@
  * SPDX-License-Identifier: MIT
  */
 
+/dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
+#include <dt-bindings/zmk/matrix_transform.h>
+
 #include "ergoducks-pinctrl.dtsi"
 #include "arduino_pro_micro_pins.dtsi"
 
@@ -14,15 +17,33 @@
 
     chosen {
         zephyr,code-partition = &code_partition;
+        zephyr,console = &cdc_acm_uart;
         zephyr,sram = &sram0;
         zephyr,flash = &flash0;
+        // Uncomment this if you enabled one of the "vddh" nodes below.
+        zmk,battery = &vbatt;
     };
 
     leds {
         compatible = "gpio-leds";
         blue_led: led_0 {
-            gpios = <&gpio0 15 GPIO_ACTIVE_HIGH>;
+            gpios = <&gpio1 11 GPIO_ACTIVE_LOW>;
         };
+    };
+
+    vbatt: vbatt {
+        compatible = "zmk,battery-nrf-vddh";
+    };
+    
+    ext_power_vcc {
+        compatible = "zmk,ext-power-generic";
+        control-gpios = <&gpio0 28 GPIO_ACTIVE_HIGH>;
+        init-delay-ms = <50>;
+    };
+    ext_power_3v3 {
+        compatible = "zmk,ext-power-generic";
+        control-gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
+        init-delay-ms = <50>;
     };
 };
 
@@ -40,28 +61,6 @@
 
 &gpio1 {
     status = "okay";
-};
-
-&i2c0 {
-    compatible = "nordic,nrf-twi";
-    pinctrl-0 = <&i2c0_default>;
-    pinctrl-1 = <&i2c0_sleep>;
-    pinctrl-names = "default", "sleep";
-};
-
-&spi1 {
-    compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi1_default>;
-    pinctrl-1 = <&spi1_sleep>;
-    pinctrl-names = "default", "sleep";
-};
-
-&uart0 {
-    compatible = "nordic,nrf-uarte";
-    current-speed = <115200>;
-    pinctrl-0 = <&uart0_default>;
-    pinctrl-1 = <&uart0_sleep>;
-    pinctrl-names = "default", "sleep";
 };
 
 zephyr_udc0: &usbd {

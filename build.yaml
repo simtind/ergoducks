@@ -19,8 +19,8 @@
 #
 ---
 include:
-  - board: ergoducks_graviton
+  - board: ergoducks_grvtn
     shield: ergoducks_left
-  - board: ergoducks_graviton
+  - board: ergoducks_grvtn
     shield: ergoducks_right
 

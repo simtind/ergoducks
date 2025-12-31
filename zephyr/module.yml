@@ -1,3 +1,5 @@
+name: zmk-keyboards-ergoducks
+
 build:
   settings:
     board_root: .

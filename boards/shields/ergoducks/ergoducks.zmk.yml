@@ -1,11 +1,21 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
+# for instructions.
+
 file_format: "1"
 id: ergoducks
-name: Ergoducks
+name: ergoducks
 type: shield
 url: https://github.com/simtind/ergoducks
-requires: [pro_micro]
+
+# Add any features your keyboard supports here.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files#features
 features:
   - keys
+  - studio 
+requires:
+  - pro_micro
+
 siblings:
   - ergoducks_left
   - ergoducks_right

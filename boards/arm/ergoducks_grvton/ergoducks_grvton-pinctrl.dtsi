@@ -1,0 +1,9 @@
+/*
+ * Copyright (c) 2022 The ZMK Contributors
+ * SPDX-License-Identifier: MIT
+ */
+
+#include <dt-bindings/pinctrl/nrf-pinctrl.h>
+
+&pinctrl {
+};

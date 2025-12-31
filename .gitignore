@@ -51,3 +51,6 @@ fp-info-cache
 
 .zmk/
 _git/
+_*/
+zephyr/
+-zephyr/module.yml

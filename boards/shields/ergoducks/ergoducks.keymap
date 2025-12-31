@@ -1,22 +1,12 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
+// This file was generated from a template. Edit it to match your keyboard.
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more instructions.
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/bt.h>
-
-#define DEFAULT 0
-#define LOWER   1
-#define RAISE   2
-
 
 / {
-        keymap {
-                compatible = "zmk,keymap";
-
+    // Define a default keymap here.
+    // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
                 default_layer {
 /* QWERTY
  * .----------------------------------------------------------------------------------------------------------------------.
@@ -80,7 +70,5 @@
 &trans        &none         &none         &none         &none         &none         &none                  &none         &none         &none         &none         &bootloader   &sys_reset        &trans
 &trans        &none         &none         &trans        &trans        &none         &trans                 &trans        &none         &trans        &none         &none         &none         &trans
                         >;
-                };
-        };
+    };
 };
-

@@ -1,8 +1,14 @@
-/*
- * Copyright (c) 2020 The ZMK Contributors
- *
- * SPDX-License-Identifier: MIT
- */
+// This file was generated from a template. Edit it to match your keyboard.
+// See https://zmk.dev/docs/development/hardware-integration/new-shield for more
+// instructions.
 
 #include "ergoducks.dtsi"
 
+&kscan {
+    // Replace these comments with the GPIO pins in the matrix for the left side.
+    // See https://zmk.dev/docs/development/hardware-integration/new-shield#shield-overlays
+    col-gpios
+        = <&pro_micro 0 GPIO_ACTIVE_HIGH>
+        , <&pro_micro 0 GPIO_ACTIVE_HIGH>
+        ;
+};

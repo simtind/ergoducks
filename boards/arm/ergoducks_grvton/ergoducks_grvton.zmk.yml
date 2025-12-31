@@ -1,0 +1,20 @@
+# This file was generated from a template. Edit it to match your keyboard.
+# See https://zmk.dev/docs/development/hardware-integration/hardware-metadata-files
+# for instructions.
+
+file_format: "1"
+id: ergoducks_grvton
+name: ergoducks graviton
+type: board
+arch: arm
+
+# Set this to a URL that documents the keyboard.
+url: https://github.com/simtind/ergoducks
+features:
+  - studio
+
+outputs:
+  - usb
+  - ble
+
+exposes: [pro_micro]
