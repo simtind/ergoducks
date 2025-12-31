@@ -17,5 +17,6 @@
 &kp  LSHFT    &kp  NO_LABK  &kp  NO_Z     &kp NO_X      &kp NO_C      &kp NO_V      &kp NO_B               &kp NO_N      &kp NO_M      &kp NO_COMM  &kp DOT       &kp  SLASH    &none        &kp SHIFT
 &kp  LCTRL    &kp LMETA     &kp LALT      &kp HOME      &kp RIGHT     &kp SPACE                                          &kp SPACE     &kp RIGHT    &kp END       &kp  RALT     &kp ESC      &kp RCTRL
                         >;
+                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
                 };
 };
