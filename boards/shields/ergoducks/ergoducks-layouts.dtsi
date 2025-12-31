@@ -1,5 +1,7 @@
 // See https://zmk.dev/docs/development/hardware-integration/physical-layouts
-// for how to configure this.#include <physical_layouts.dtsi>
+// for how to configure this.
+
+#include <physical_layouts.dtsi>
 
 / {
     ergoducks_layout: ergoducks_layout {
