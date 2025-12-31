@@ -91,7 +91,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -108,7 +108,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -145,7 +145,7 @@
         "min_track_width": 0.1,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.45,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "ergoducks_keyboard.kicad_pro",
+    "filename": "ergoducks_keyboard_right.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -574,7 +574,7 @@
           "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -646,7 +646,7 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -724,10 +724,6 @@
       "Root"
     ],
     [
-      "b1dfbd10-896c-42f6-bf91-bc2c1a65e114",
-      "switch35"
-    ],
-    [
       "6b2f3291-a0c0-42ef-8381-463744640a0d",
       "switch1"
     ],
@@ -756,112 +752,136 @@
       "switch7"
     ],
     [
-      "3a27430d-eb7c-4659-9476-60dfe25c49ef",
+      "96b6f36c-f9c9-4eeb-b7cf-9a4fdf27add7",
       "switch8"
     ],
     [
-      "72d0e67b-51f0-4099-946f-93faaa66c14b",
+      "3a27430d-eb7c-4659-9476-60dfe25c49ef",
       "switch9"
     ],
     [
-      "5c33daad-ef4c-44fa-82ef-4b27848b2ff7",
+      "72d0e67b-51f0-4099-946f-93faaa66c14b",
       "switch10"
     ],
     [
-      "4bff9e13-bf08-4bc3-8d07-08e6020b2d1e",
+      "5c33daad-ef4c-44fa-82ef-4b27848b2ff7",
       "switch11"
     ],
     [
-      "0e8a0a80-1375-43b6-a489-7d108b4235c1",
+      "4bff9e13-bf08-4bc3-8d07-08e6020b2d1e",
       "switch12"
     ],
     [
-      "ee013725-6e8a-42e5-bffe-34b33d466ee9",
+      "0e8a0a80-1375-43b6-a489-7d108b4235c1",
       "switch13"
     ],
     [
-      "90c64db9-63ab-4668-88cb-adbf9d8d96d6",
+      "ee013725-6e8a-42e5-bffe-34b33d466ee9",
       "switch14"
     ],
     [
-      "04cfd037-ecde-48cb-b609-9c5d0fdb955a",
+      "90c64db9-63ab-4668-88cb-adbf9d8d96d6",
       "switch15"
     ],
     [
-      "e5ca2f5f-8502-415e-860a-b457d1e241c0",
+      "ce185253-7d95-4304-93f1-8a121f1a8fec",
       "switch16"
     ],
     [
-      "ef669561-b85f-4b8d-b0f1-b61648dd10d6",
+      "04cfd037-ecde-48cb-b609-9c5d0fdb955a",
       "switch17"
     ],
     [
-      "19f95693-6e2f-4e52-ba4d-eec463c08716",
+      "e5ca2f5f-8502-415e-860a-b457d1e241c0",
       "switch18"
     ],
     [
-      "631ba33f-76dd-4fd4-8eae-6d408b8b993b",
+      "ef669561-b85f-4b8d-b0f1-b61648dd10d6",
       "switch19"
     ],
     [
-      "589208ae-9a2c-434d-b690-f826d7e4ac0e",
+      "19f95693-6e2f-4e52-ba4d-eec463c08716",
       "switch20"
     ],
     [
-      "7f25dbf4-41c3-49ee-aeed-e62e618656a6",
+      "631ba33f-76dd-4fd4-8eae-6d408b8b993b",
       "switch21"
     ],
     [
-      "c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f",
+      "589208ae-9a2c-434d-b690-f826d7e4ac0e",
       "switch22"
     ],
     [
-      "51702454-5233-4731-aa5d-c1afbb7d343c",
+      "7f25dbf4-41c3-49ee-aeed-e62e618656a6",
       "switch23"
     ],
     [
-      "018e44a5-5c9c-4817-a30d-13f4017fbabe",
+      "30578288-6eef-4716-a84c-cb5c20a3915f",
       "switch24"
     ],
     [
-      "cc28726c-9884-41e7-a23b-9c3ba01a0814",
+      "c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f",
       "switch25"
     ],
     [
-      "a72acf86-7c5a-43e1-90d3-dc587b4dbfa5",
+      "51702454-5233-4731-aa5d-c1afbb7d343c",
       "switch26"
     ],
     [
-      "cdc22efb-0d3b-43ef-8d0e-855841312b6d",
+      "018e44a5-5c9c-4817-a30d-13f4017fbabe",
       "switch27"
     ],
     [
-      "8c0de7f6-8b7b-4fe4-8d00-3edc626a94bc",
+      "cc28726c-9884-41e7-a23b-9c3ba01a0814",
       "switch28"
     ],
     [
-      "6bbf94bf-3f46-481e-9f6c-69161bd5eacd",
+      "a72acf86-7c5a-43e1-90d3-dc587b4dbfa5",
       "switch29"
     ],
     [
-      "edf15388-f87b-4856-af24-02d9166d870a",
+      "cdc22efb-0d3b-43ef-8d0e-855841312b6d",
       "switch30"
     ],
     [
-      "45943c90-d07a-4ce9-be5d-fac72068e549",
+      "8c0de7f6-8b7b-4fe4-8d00-3edc626a94bc",
       "switch31"
     ],
     [
-      "cf1855a5-55b8-43cc-9377-9cbddd242ebe",
+      "08da3478-c83a-4b6f-91fc-7490e34aadad",
       "switch32"
     ],
     [
-      "8e754eb8-34c6-4d16-bbbc-e410c55cb6b9",
+      "6bbf94bf-3f46-481e-9f6c-69161bd5eacd",
       "switch33"
     ],
     [
-      "7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2",
+      "edf15388-f87b-4856-af24-02d9166d870a",
       "switch34"
+    ],
+    [
+      "45943c90-d07a-4ce9-be5d-fac72068e549",
+      "switch35"
+    ],
+    [
+      "cf1855a5-55b8-43cc-9377-9cbddd242ebe",
+      "switch36"
+    ],
+    [
+      "8e754eb8-34c6-4d16-bbbc-e410c55cb6b9",
+      "switch37"
+    ],
+    [
+      "3aa03811-1668-4ce8-909b-6fb24ceb7a90",
+      "switch38"
+    ],
+    [
+      "b1dfbd10-896c-42f6-bf91-bc2c1a65e114",
+      "switch39"
+    ],
+    [
+      "7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2",
+      "switch40"
     ]
   ],
   "text_variables": {}

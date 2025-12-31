@@ -1047,7 +1047,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1ddf86fc-32a2-42e7-8017-63d3f4cb0b5f")
-		(property "Reference" "D302"
+		(property "Reference" "D4102"
 			(at 131.2926 94.0816 0)
 			(effects
 				(font
@@ -1056,7 +1056,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
+		(property "Value" "SK6812-EC20"
 			(at 131.2926 96.393 0)
 			(effects
 				(font
@@ -1065,7 +1065,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "prettylib:SK6812MINI-E-reversible"
+		(property "Footprint" "prettylib:sk6812-ec20"
 			(at 123.825 102.87 0)
 			(effects
 				(font
@@ -1075,7 +1075,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn-shop.adafruit.com/product-files/4960/4960_SK6812MINI-E_REV02_EN.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8589835384537849856"
 			(at 125.095 104.775 0)
 			(effects
 				(font
@@ -1111,7 +1111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Product name" "SK6812MINI-E"
+		(property "Product name" "SK6812-EC20"
 			(at 122.555 95.25 0)
 			(effects
 				(font
@@ -1138,42 +1138,49 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2909058"
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" ""
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 122.555 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "19fb7341-e1d0-439e-9de6-2acf7cba6217")
+			(uuid "2db4fdff-4581-4d9a-901d-b89aec3ca684")
 		)
 		(pin "2"
-			(uuid "606697a3-4d64-4010-90de-8616bbc6a98c")
+			(uuid "b04d2c3d-6081-49e2-aa12-e7f1e4a72d6e")
 		)
 		(pin "3"
-			(uuid "19b4d235-97d4-4fab-8823-ea3a23e4cc99")
+			(uuid "f0a30fda-a11c-413d-bffa-0370fcc68468")
 		)
 		(pin "4"
-			(uuid "aa061373-c6e6-4da3-b18d-b236ef06b860")
+			(uuid "beec23ec-2707-48c5-abe1-652d1b2ed7d9")
 		)
 		(instances
-			(project "ergoducks_keyboard"
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
-					(reference "D1702")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
-					(reference "D1002")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
-					(reference "D302")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
-					(reference "D3102")
-					(unit 1)
-				)
+			(project ""
 				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
-					(reference "D3602")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
-					(reference "D2402")
+					(reference "D4102")
 					(unit 1)
 				)
 			)
@@ -1188,7 +1195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4131c1c7-d7c4-4cf3-8175-cacc687532c4")
-		(property "Reference" "#PWR0303"
+		(property "Reference" "#PWR03906"
 			(at 130.175 93.98 0)
 			(effects
 				(font
@@ -1232,32 +1239,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "252f040e-ba72-4c2b-8f8e-95368b6f3e51")
+			(uuid "123104a8-0395-4c7d-8e81-4640a9e8d5be")
 		)
 		(instances
-			(project "ergoducks_keyboard"
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
-					(reference "#PWR01703")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
-					(reference "#PWR01003")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
-					(reference "#PWR0303")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
-					(reference "#PWR03103")
-					(unit 1)
-				)
+			(project ""
 				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
-					(reference "#PWR03603")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
-					(reference "#PWR02403")
+					(reference "#PWR03906")
 					(unit 1)
 				)
 			)
@@ -1270,9 +1257,9 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "4916c2b7-c825-4ccc-bac9-1e46c56c2256")
-		(property "Reference" "SW301"
+		(property "Reference" "SW4101"
 			(at 125.73 66.04 0)
 			(effects
 				(font
@@ -1360,36 +1347,34 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 120.65 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e16ca284-f5f3-4641-9fef-914a6e2d121f")
+			(uuid "2cfc2423-bdc8-4fc6-8778-d0f69124ab8f")
 		)
 		(pin "2"
-			(uuid "bfb9ddbe-02e7-4055-a29f-0b48a3025924")
+			(uuid "15909887-1659-4b5c-84f0-ac29d8bfe183")
 		)
 		(instances
-			(project "ergoducks_keyboard"
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
-					(reference "SW1701")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
-					(reference "SW1001")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
-					(reference "SW301")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
-					(reference "SW3101")
-					(unit 1)
-				)
+			(project ""
 				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
-					(reference "SW3601")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
-					(reference "SW2401")
+					(reference "SW4101")
 					(unit 1)
 				)
 			)
@@ -1404,7 +1389,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5b062442-0dd3-49db-a0c0-8df3182c480f")
-		(property "Reference" "#PWR0302"
+		(property "Reference" "#PWR03905"
 			(at 130.175 86.36 0)
 			(effects
 				(font
@@ -1448,32 +1433,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "d53faed2-2fe5-4df3-ac51-825e5cec63c0")
+			(uuid "e1090237-16f9-43cf-bde6-b75531c85bdd")
 		)
 		(instances
-			(project "ergoducks_keyboard"
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
-					(reference "#PWR01702")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
-					(reference "#PWR01002")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
-					(reference "#PWR0302")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
-					(reference "#PWR03102")
-					(unit 1)
-				)
+			(project ""
 				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
-					(reference "#PWR03602")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
-					(reference "#PWR02402")
+					(reference "#PWR03905")
 					(unit 1)
 				)
 			)
@@ -1488,7 +1453,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6d69988f-0212-46c2-994e-c4aead5262c3")
-		(property "Reference" "C301"
+		(property "Reference" "C4101"
 			(at 132.5118 83.9216 0)
 			(effects
 				(font
@@ -1506,7 +1471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 130.175 85.09 0)
 			(effects
 				(font
@@ -1515,7 +1480,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Samsung%20PDFs/CL10B104JB8NNNC_Spec.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707269996871680"
 			(at 130.175 85.09 0)
 			(effects
 				(font
@@ -1577,36 +1542,43 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 130.175 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "203925d7-1fee-4725-82f4-33286376c359")
+			(uuid "877f8942-74ef-4683-bf6f-b9173c7f9f4f")
 		)
 		(pin "2"
-			(uuid "c8d76b34-7492-4a29-84d2-b2bf00ca54e7")
+			(uuid "32bb68b6-66f5-49e3-bba2-d415df64928e")
 		)
 		(instances
-			(project "ergoducks_keyboard"
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
-					(reference "C1701")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
-					(reference "C1001")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
-					(reference "C301")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
-					(reference "C3101")
-					(unit 1)
-				)
+			(project ""
 				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
-					(reference "C3601")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
-					(reference "C2401")
+					(reference "C4101")
 					(unit 1)
 				)
 			)
@@ -1622,7 +1594,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d693e6d-9f38-473c-a89e-18ffd865b3dc")
-		(property "Reference" "D301"
+		(property "Reference" "D4101"
 			(at 111.76 62.23 0)
 			(effects
 				(font
@@ -1647,7 +1619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8586178373978624000"
 			(at 111.76 68.58 0)
 			(effects
 				(font
@@ -1683,36 +1655,43 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" ""
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part number" ""
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C27748"
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
-			(uuid "8fc854c5-0ce3-41fc-8743-9e19251b86df")
+			(uuid "9ab32967-0152-4a2d-aa97-3c6e93b4e23c")
 		)
 		(pin "1"
-			(uuid "f39af244-fee5-4371-869a-065ccfa98f22")
+			(uuid "ea022a95-3aef-4f5b-9bcd-7b78aea55fca")
 		)
 		(instances
-			(project "ergoducks_keyboard"
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
-					(reference "D1701")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
-					(reference "D1001")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
-					(reference "D301")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
-					(reference "D3101")
-					(unit 1)
-				)
+			(project ""
 				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
-					(reference "D3601")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
-					(reference "D2401")
+					(reference "D4101")
 					(unit 1)
 				)
 			)
@@ -1727,7 +1706,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc673b6a-ccbb-4fd1-9c0d-9c05128a7618")
-		(property "Reference" "#PWR0301"
+		(property "Reference" "#PWR03904"
 			(at 122.555 109.22 0)
 			(effects
 				(font
@@ -1771,32 +1750,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fb398235-6f8b-48d4-8d57-91fa7a6d0951")
+			(uuid "73970c00-f96b-4c77-b33d-406bc9e86750")
 		)
 		(instances
-			(project "ergoducks_keyboard"
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/04cfd037-ecde-48cb-b609-9c5d0fdb955a"
-					(reference "#PWR01701")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/3a27430d-eb7c-4659-9476-60dfe25c49ef"
-					(reference "#PWR01001")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6b2f3291-a0c0-42ef-8381-463744640a0d"
-					(reference "#PWR0301")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/6bbf94bf-3f46-481e-9f6c-69161bd5eacd"
-					(reference "#PWR03101")
-					(unit 1)
-				)
+			(project ""
 				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/7dda8fc3-2f1e-4fb0-9221-7f04cb97dbe2"
-					(reference "#PWR03601")
-					(unit 1)
-				)
-				(path "/d38aa458-d7c4-47af-ba08-2b6be506a3fd/c6b3aff3-7c0b-4d6c-9e8c-3a85f5754b9f"
-					(reference "#PWR02401")
+					(reference "#PWR03904")
 					(unit 1)
 				)
 			)
