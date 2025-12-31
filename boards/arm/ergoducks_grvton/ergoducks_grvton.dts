@@ -8,7 +8,6 @@
 #include <nordic/nrf52840_qiaa.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 
-#include "ergoducks-pinctrl.dtsi"
 #include "arduino_pro_micro_pins.dtsi"
 
 / {
