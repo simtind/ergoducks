@@ -24,7 +24,8 @@ if EC11
 
     choice EC11_TRIGGER_MODE
         default EC11_TRIGGER_GLOBAL_THREAD
-
+    endchoice
+    
 endif
 
 if ZMK_DISPLAY
