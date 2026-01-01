@@ -17,3 +17,7 @@
         , <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 };
+
+&led_strip {
+    chain-length = <35>;
+};
