@@ -22,8 +22,8 @@ endif
 
 if EC11
 
-    config EC11_TRIGGER_GLOBAL_THREAD
-        default y
+    choice EC11_TRIGGER_MODE
+        default EC11_TRIGGER_GLOBAL_THREAD
 
 endif
 
