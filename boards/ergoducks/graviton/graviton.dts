@@ -86,11 +86,8 @@
     status = "okay";
 };
 
-&usbd {
-  status = "okay";
-  cdc_acm_uart: cdc_acm_uart {
-    compatible = "zephyr,cdc-acm-uart";
-  };
+zephyr_udc0: &usbd {
+    status = "okay";
 };
 
 &gpregret1 {
