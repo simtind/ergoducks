@@ -6,7 +6,6 @@
 
 /dts-v1/;
 #include <nordic/nrf52840_qiaa.dtsi>
-#include <common/nordic/nrf52840_uf2_boot_mode.dtsi>
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "arduino_pro_micro_pins.dtsi"
 
@@ -20,6 +19,8 @@
         zephyr,sram = &sram0;
         zephyr,flash = &flash0;
         zmk,battery = &vbatt;
+        zephyr,boot-mode = &boot_retention;
+        zmk,magic-boot-mode = &adafruit_boot_retention;
     };
 
     leds {
@@ -42,6 +43,20 @@
         compatible = "zmk,ext-power-generic";
         control-gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
         init-delay-ms = <50>;
+    };
+
+    magic_mapper {
+        compatible = "zmk,bootmode-to-magic-mapper";
+        status = "okay";
+
+        #address-cells = <1>;
+        #size-cells = <1>;
+
+        boot_retention: retention@0 {
+            compatible = "zephyr,retention";
+            status = "okay";
+            reg = <0x0 0x1>;
+        };
     };
 };
 
@@ -66,6 +81,14 @@
   cdc_acm_uart: cdc_acm_uart {
     compatible = "zephyr,cdc-acm-uart";
   };
+};
+
+&gpregret1 {
+    adafruit_boot_retention: retention@0 {
+        compatible = "zephyr,retention";
+        status = "okay";
+        reg = <0x0 0x1>;
+    };
 };
 
 &flash0 {
