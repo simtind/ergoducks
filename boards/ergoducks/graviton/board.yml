@@ -1,6 +1,6 @@
 
 board:
-  name: ergoducks_grvton
+  name: graviton
   vendor: ergoducks
   socs:
     - name: nrf52840
