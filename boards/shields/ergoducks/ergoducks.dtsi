@@ -2,6 +2,7 @@
 // for how to configure this.
 
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <zephyr/dt-bindings/led/led.h>
 
 #include "ergoducks-layouts.dtsi"
 
@@ -124,8 +125,8 @@ i2s_led: &i2s0 {
 		compatible = "worldsemi,ws2812-i2s";
 		reg = <0>;
 		color-mapping = <LED_COLOR_ID_GREEN
-				 LED_COLOR_ID_RED
-				 LED_COLOR_ID_BLUE>;
+                        LED_COLOR_ID_RED
+                        LED_COLOR_ID_BLUE>;
 		reset-delay = <120>;
 	};
 };
