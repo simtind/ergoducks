@@ -11,12 +11,11 @@
     // See https://zmk.dev/docs/development/hardware-integration/new-shield#default-keymap.
                 default_layer {
                         bindings = <
-&kp  NO_PIPE  &kp  NO_1     &kp NO_2      &kp NO_3      &kp NO_4      &kp NO_5      &kp NO_6               &kp NO_7      &kp NO_8      &kp NO_9     &kp NO_0      &kp  NO_PLUS  &kp NO_BSLS  &kp BSPC
-&kp  TAB      &kp  NO_Q     &kp  NO_W     &kp NO_E      &kp NO_R      &kp NO_T      &kp NO_Y               &kp NO_U      &kp NO_I      &kp NO_O     &kp NO_P      &kp  NO_AA    &kp NO_DIAE  &kp DEL
-&kp  TAB      &kp  NO_A     &kp  NO_S     &kp NO_D      &kp NO_F      &kp NO_G      &kp NO_H               &kp NO_J      &kp NO_K      &kp NO_L     &kp NO_OE     &kp  NO_AE    &kp NO_QUOT  &kp ENTER
-&kp  LSHFT    &kp  NO_LABK  &kp  NO_Z     &kp NO_X      &kp NO_C      &kp NO_V      &kp NO_B               &kp NO_N      &kp NO_M      &kp NO_COMM  &kp DOT       &kp  SLASH    &none        &kp SHIFT
-&kp  LCTRL    &kp LMETA     &kp LALT      &kp HOME      &kp RIGHT     &kp SPACE                                          &kp SPACE     &kp RIGHT    &kp END       &kp  RALT     &kp ESC      &kp RCTRL
+&kp NO_PIPE    &kp NO_1       &kp NO_2    &kp NO_3    &kp NO_4     &kp NO_5     &kp NO_6    &kp NO_7    &kp NO_8     &kp NO_9       &kp NO_0     &kp NO_PLUS    &kp NO_BSLS    &kp BSPC
+&kp TAB        &kp NO_Q       &kp NO_W    &kp NO_E    &kp NO_R     &kp NO_T     &kp NO_Y    &kp NO_U    &kp NO_I     &kp NO_O       &kp NO_P     &kp NO_AA      &kp NO_DIAE    &kp DEL
+&kp TAB        &kp NO_A       &kp NO_S    &kp NO_D    &kp NO_F     &kp NO_G     &kp NO_H    &kp NO_J    &kp NO_K     &kp NO_L       &kp NO_OE    &kp NO_AE      &kp NO_QUOT    &kp ENTER
+&kp LSHFT      &kp NO_LABK    &kp NO_Z    &kp NO_X    &kp NO_C     &kp NO_V     &kp NO_B    &kp NO_N    &kp NO_M     &kp NO_COMM    &kp DOT      &kp SLASH      &none          &kp SHIFT
+&kp LCTRL      &kp LMETA      &kp LALT    &kp HOME    &kp RIGHT    &kp SPACE    &none       &none       &kp SPACE    &kp RIGHT      &kp END      &kp RALT       &kp ESC        &kp RCTRL
                         >;
-                        sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
                 };
 };
