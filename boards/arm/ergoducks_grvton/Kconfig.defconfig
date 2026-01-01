@@ -6,10 +6,6 @@ if BOARD_ERGODUCKS_GRAVITON
 config BOARD
     default "ergoducks_grvton"
 
-choice ZMK_BOOTMODE_MAGIC_VALUE_BOOTLOADER_TYPE
-    default ZMK_BOOTMODE_MAGIC_VALUE_BOOTLOADER_TYPE_ADAFRUIT_NRF52
-endchoice
-
 if USB
 
 config USB_NRFX
