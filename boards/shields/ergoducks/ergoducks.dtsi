@@ -136,6 +136,7 @@ i2s_led: &i2s0 {
                         LED_COLOR_ID_RED
                         LED_COLOR_ID_BLUE>;
 		reset-delay = <120>;
+        extra-wait-time = <1000>;
 	};
 };
 
