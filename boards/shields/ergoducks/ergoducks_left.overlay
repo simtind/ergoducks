@@ -15,6 +15,5 @@
         , <&gpio1 10 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&gpio1 13 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&gpio1 14 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&gpio1 12 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 };
