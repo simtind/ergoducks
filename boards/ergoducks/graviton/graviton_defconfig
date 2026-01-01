@@ -2,8 +2,6 @@
 # See https://docs.zephyrproject.org/3.5.0/hardware/porting/board_porting.html#write-kconfig-files
 # for more information.
 
-CONFIG_BOARD_GRAVITON=y
-
 # Enable MPU
 CONFIG_ARM_MPU=y
 
