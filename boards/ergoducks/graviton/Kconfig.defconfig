@@ -1,10 +1,7 @@
 # Copyright (c) 2021 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
-if BOARD_ERGODUCKS_GRAVITON
-
-config BOARD
-    default "ergoducks_grvton"
+if BOARD_GRAVITON
 
 if USB || USB_DEVICE_STACK
 
@@ -16,4 +13,4 @@ endif # USB
 config BT_CTLR
     default BT
 
-endif # BOARD_ERGODUCKS_GRAVITON
+endif # BOARD_GRAVITON

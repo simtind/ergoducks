@@ -54,3 +54,4 @@ _git/
 _*/
 zephyr/
 -zephyr/module.yml
+.west/config
