@@ -13,6 +13,10 @@ url: https://github.com/simtind/ergoducks
 features:
   - keys
   - studio 
+  - encoder
+  - underglow
+  - backlight
+  
 requires:
   - pro_micro
 
