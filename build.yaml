@@ -22,7 +22,9 @@ include:
   - board: graviton
     shield: ergoducks_left
     snippet: zmk-usb-logging
+    cmake-args: -DNRFX_TWIM_CONFIG_LOG_LEVEL=4
   - board: graviton
     shield: ergoducks_right
     snippet: zmk-usb-logging
+    cmake-args: -DNRFX_TWIM_CONFIG_LOG_LEVEL=4
 
