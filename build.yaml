@@ -21,8 +21,8 @@
 include:
   - board: graviton
     shield: ergoducks_left
-   # snippet: zmk-usb-logging
+    snippet: zmk-usb-logging
   - board: graviton
     shield: ergoducks_right
-   # snippet: zmk-usb-logging
+    snippet: zmk-usb-logging
 
