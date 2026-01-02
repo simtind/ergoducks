@@ -12,6 +12,10 @@ if SHIELD_ERGODUCKS_LEFT || SHIELD_ERGODUCKS_RIGHT
 
 config ZMK_SPLIT
     default y
+    
+# Missing property if ZMK usb logging setting not set.
+config LOG_PROCESS_THREAD_STARTUP_DELAY_MS
+    default 1000
 
 if ZMK_RGB_UNDERGLOW
 
