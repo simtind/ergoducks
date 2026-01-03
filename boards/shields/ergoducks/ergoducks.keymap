@@ -3,6 +3,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 #include "keys_norwegian.h"
 
@@ -19,6 +20,7 @@
 &kp LSHFT      &kp NO_Z       &kp NO_X    &kp NO_C    &kp NO_V     &kp NO_B  &none      &kp NO_N    &kp NO_M    &kp NO_COMM  &kp DOT        &kp SLASH    &none          &none          &kp RSHFT
 &kp LCTRL      &kp LMETA      &kp LALT    &kp HOME    &kp RIGHT    &kp SPACE &none      &kp SPACE   &kp SPACE   &kp SPACE    &kp RIGHT      &kp END      &kp RALT       &kp ESC        &kp RCTRL
             >;
+            sensor-bindings = <&inc_dec_msc SCRL_UP SCRL_DOWN &inc_dec_msc SCRL_LEFT SCRL_RIGHT>;
         };
     };
 };
