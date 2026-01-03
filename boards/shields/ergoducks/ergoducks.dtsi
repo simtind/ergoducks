@@ -1,6 +1,8 @@
 // See https://zmk.dev/docs/development/hardware-integration/physical-layouts
 // for how to configure this.
 
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 140
+
 #include <dt-bindings/zmk/matrix_transform.h>
 #include <dt-bindings/zmk/pointing.h>
 #include <zephyr/dt-bindings/led/led.h>
@@ -60,6 +62,7 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)     RC(4,7) RC(4,8) RC(4
     behaviors {
         inc_dec_msc: inc_dec_msc {
             compatible = "zmk,behavior-sensor-rotate-var";
+            tap-ms = <20>;
             #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
         };
