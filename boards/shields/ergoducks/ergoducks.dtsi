@@ -47,16 +47,16 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5) RC(4,6)     RC(4,7) RC(4,8) RC(4
 
     encoder: encoder {
         compatible = "alps,ec11";
-        a-gpios = <&gpio0 20 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        b-gpios = <&gpio0 17 (GPIO_ACTIVE_HIGH | GPIO_PULL_UP)>;
-        steps = <15>;
+        a-gpios = <&gpio0 20 GPIO_ACTIVE_HIGH>;
+        b-gpios = <&gpio0 17 GPIO_ACTIVE_HIGH>;
+        steps = <24>;
         status = "okay";
     };
 
     sensors: sensors {
         compatible = "zmk,keymap-sensors";
         sensors = <&encoder>;
-        triggers-per-rotation = <20>;
+        triggers-per-rotation = <24>;
     };
 
     behaviors {
