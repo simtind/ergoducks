@@ -28,29 +28,23 @@
         blue_led: led_0 {
             gpios = <&gpio1 11 GPIO_ACTIVE_LOW>;
         };
-        ext_vdd {
-            gpios = <&gpio0 28 GPIO_ACTIVE_LOW>;
-        };
-        ext_3v3 {
-            gpios = <&gpio0 30 GPIO_ACTIVE_LOW>;
-        };
     };
 
     vbatt: vbatt {
         compatible = "zmk,battery-nrf-vddh";
     };
     
-    // ext_power_vcc {
-    //     compatible = "zmk,ext-power-generic";
-    //     control-gpios = <&gpio0 28 GPIO_ACTIVE_HIGH>;
-    //     init-delay-ms = <0>;
-    // };
-    // 
-    // ext_power_3v3 {
-    //     compatible = "zmk,ext-power-generic";
-    //     control-gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
-    //     init-delay-ms = <0>;
-    // };
+    ext_power {
+        compatible = "zmk,ext-power-generic";
+        control-gpios = <&gpio0 28 GPIO_ACTIVE_HIGH, &gpio0 30 GPIO_ACTIVE_HIGH>;
+        init-delay-ms = <0>;
+    };
+    
+   // ext_power_3v3 {
+   //     compatible = "zmk,ext-power-generic";
+   //     control-gpios = <&gpio0 30 GPIO_ACTIVE_HIGH>;
+   //     init-delay-ms = <0>;
+   // };
 
     magic_mapper {
         compatible = "zmk,bootmode-to-magic-mapper";
