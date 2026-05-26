@@ -24,7 +24,7 @@ include:
     snippet: zmk-usb-logging
   - board: graviton
     shield: ergoducks_right
-    snippet: zmk-usb-logging
+    # snippet: zmk-usb-logging
   - board: graviton
     shield: settings_reset
 
