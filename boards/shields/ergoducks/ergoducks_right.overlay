@@ -20,10 +20,10 @@
         , <&gpio1 15 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&gpio1 2  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         , <&gpio1 29 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
-        , <&gpio1 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
+        // , <&gpio1 31 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>
         ;
 };
 
 &led_strip {
-    chain-length = <40>;
+    chain-length = <35>;
 };
