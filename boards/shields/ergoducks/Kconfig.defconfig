@@ -1,14 +1,17 @@
-if SHIELD_ERGODUCKS_LEFT
-
-config ZMK_KEYBOARD_NAME
-    default "ergoducks"
+if SHIELD_ERGODUCKS_RIGHT
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-endif # SHIELD_ERGODUCKS_LEFT
+config ZMK_USB
+    default y
+
+endif # SHIELD_ERGODUCKS_RIGHT
 
 if SHIELD_ERGODUCKS_LEFT || SHIELD_ERGODUCKS_RIGHT
+
+config ZMK_KEYBOARD_NAME
+    default "ergoducks"
 
 config ZMK_SPLIT
     default y

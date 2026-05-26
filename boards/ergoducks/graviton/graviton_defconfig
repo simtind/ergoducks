@@ -27,8 +27,6 @@ CONFIG_FLASH_MAP=y
 
 # Enable ZMK BLE and USB output
 CONFIG_ZMK_BLE=y
-CONFIG_ZMK_USB=y
-
 CONFIG_ZMK_EXT_POWER=y
 
 # encoder
