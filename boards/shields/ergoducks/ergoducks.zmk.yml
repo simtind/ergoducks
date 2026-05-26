@@ -16,9 +16,6 @@ features:
   - encoder
   - underglow
   - backlight
-  
-requires:
-  - pro_micro
 
 siblings:
   - ergoducks_left

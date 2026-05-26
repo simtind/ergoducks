@@ -17,8 +17,6 @@ outputs:
   - usb
   - ble
 
-exposes: [pro_micro]
-
 revisions:
   - "1.0.0"
 default_revision: "1.0.0"
